@@ -16,7 +16,7 @@ import {
 
 export default hopeTheme(
     {
-        hostname: "https://hoshiizumiya.github.io/Snap.Hutao-Manjusaka.Docs/",
+        hostname: "https://hoshiizumiya.github.io",
 
         author: {
             name: "DGP-Studio",
