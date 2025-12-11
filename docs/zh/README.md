@@ -2,9 +2,9 @@
 home: true
 icon: iconfont icon-home
 title: 首页
-heroImage: https://testingcf.jsdelivr.net/gh/hoshiizumiya/images/Logo.ico
-heroAlt: 胡桃工具箱
-heroText: 胡桃工具箱
+heroImage: https://testingcf.jsdelivr.net/gh/hoshiizumiya/images/InAppLogo.png
+heroAlt: 胡桃工具箱-Manjusaka
+heroText: 胡桃工具箱-Manjusaka
 tagline: <a href="https://trendshift.io/repositories/2009"><img src="https://trendshift.io/api/badge/repositories/2009" alt="trend"/></a><br>实用的开源多功能原神工具箱 🧰
 bgImage: /images/202308/head-back.png
 bgImageDark: /images/202308/head-back.png
@@ -13,7 +13,7 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 head:
   - - meta
     - name: keywords
-      content: 原神,胡桃工具箱,Snap Hutao,胡桃
+      content: 原神,胡桃工具箱,Snap Hutao-Manjusaka,胡桃-Manjusaka
 actions:
   - text: 开始使用
     link: quick-start.html

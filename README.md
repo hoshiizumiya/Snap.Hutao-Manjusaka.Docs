@@ -1,8 +1,8 @@
-# Snap.Hutao.Docs
+﻿# Snap.Hutao.Docs-Manjusaka
 
-This repository contains the documentation for the [Snap Hutao project](https://github.com/DGP-Studio/Snap.Hutao). You can view the live version at [https://hut.ao](https://hut.ao).
+This repository contains the documentation for the [Snap Hutao-Manjusaka project](https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka). You can view the live version at []().
 
-We welcome contributions to our documentation! If you're interested in helping with translations, please check our [Localization Guide](https://hut.ao/i18n.html).
+We welcome contributions to our documentation! If you're interested in helping with translations, please check our [Localization Guide](https:///i18n.html).
 
 ## How to Run Locally
 
@@ -18,12 +18,12 @@ Once the prerequisites are met, follow these steps:
 1.  **Clone the Repository:**
     Open your terminal or command prompt and run the following command to clone this project to your local machine:
     ```bash
-    git clone https://github.com/DGP-Studio/Snap.Hutao.Docs.git
+    git clone https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs.git
     ```
 
 2.  **Navigate to the Project Directory:**
     ```bash
-    cd Snap.Hutao.Docs
+    cd Snap.Hutao-Manjusaka.Docs
     ```
 
 3.  **Install Dependencies:**
