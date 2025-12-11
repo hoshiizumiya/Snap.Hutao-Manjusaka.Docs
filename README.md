@@ -2,7 +2,7 @@
 
 This repository contains the documentation for the [Snap Hutao-Manjusaka project](https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka). You can view the live version at []().
 
-We welcome contributions to our documentation! If you're interested in helping with translations, please check our [Localization Guide](https:///i18n.html).
+We welcome contributions to our documentation! If you're interested in helping with translations, please check our [Localization Guide](https://hoshiizumiya.github.io/Snap.Hutao-Manjusaka.Docs/zh/i18n.html).
 
 ## How to Run Locally
 
