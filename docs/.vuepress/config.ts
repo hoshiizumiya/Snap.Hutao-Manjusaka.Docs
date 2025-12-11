@@ -1,4 +1,4 @@
-import { getDirname, path } from "vuepress/utils";
+﻿import { getDirname, path } from "vuepress/utils";
 import { viteBundler } from "@vuepress/bundler-vite";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { defineUserConfig } from "vuepress";
@@ -8,7 +8,7 @@ import theme from "./theme.js";
 const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
-  base: "/",
+  base: "/Snap.Hutao-Manjusaka.Docs/",
 
   dest: "./dist",
 
