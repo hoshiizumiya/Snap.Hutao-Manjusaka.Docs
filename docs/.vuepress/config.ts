@@ -8,7 +8,7 @@ import theme from "./theme.js";
 const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
-  base: "/Snap.Hutao-Manjusaka.Docs/",
+    base: "/hoshiizumiya.github.io/Snap.Hutao-Manjusaka.Docs/",
 
   dest: "./dist",
 
