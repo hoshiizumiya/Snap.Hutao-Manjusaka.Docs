@@ -2,11 +2,20 @@
 
 on:
   push:
-    branches:
-      - "master"
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  deploy-gh-pages:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,19 +32,30 @@ jobs:
           node-version: 22
           cache: pnpm
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
       - name: Install Deps
         run: pnpm install --frozen-lockfile
 
       - name: Build Docs
         env:
           NODE_OPTIONS: --max_old_space_size=4096
-        run: |-
-          pnpm docs:build
-          > dist/.nojekyll
+        run: pnpm run docs:build
 
-      - name: Deploy Docs
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          # This is the branch where the docs are deployed to
-          branch: gh-pages
-          folder: dist
+          path: dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
