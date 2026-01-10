@@ -1,0 +1,323 @@
+import { defineConfig } from 'vitepress'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
+import { generateSidebar } from 'vitepress-sidebar'
+
+export default defineConfig({
+    base: '/Snap.Hutao-Manjusaka.Docs/',
+    outDir: './dist',
+    publicDir: 'public',
+    ignoreDeadLinks: true,
+    cleanUrls: true,
+    lastUpdated: true,
+    markdown: {
+        config(md: any) {
+            md.use(tabsMarkdownPlugin)
+        },
+    },
+    head: [
+        ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+        [
+            'link',
+            { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        ],
+        [
+            'link',
+            {
+                href: 'https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Noto+Sans+SC:wght@500&display=swap',
+                rel: 'stylesheet',
+            },
+        ],
+        [
+            'script',
+            {
+                src: 'https://hello.snapgenshin.com/api/script.js',
+                async: 'true',
+                'data-site-id': '1',
+                'data-session-replay': 'true',
+                'data-skip-patterns': '["**/latest"]'
+            }
+        ],
+        [
+            'script',
+            {
+                async: '',
+                src: 'https://www.googletagmanager.com/gtag/js?id=G-F3LFJCE3RM'
+            }
+        ],
+        [
+            'script',
+            {},
+            `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F3LFJCE3RM');
+      `,
+        ],
+        [
+            'script',
+            {},
+            `
+      !function(b,c,f,d,a,e){b.dclsPxl||(((d=b.dclsPxl=function(){d.callMethod?d.callMethod.apply(d,arguments):d.queue.push(arguments)}).push=d).queue=[],(a=c.createElement("script")).async=!0,a.src=f,(e=c.getElementsByTagName("script")[0]).parentNode.insertBefore(a,e))}(window,document,"https://ducalis.io/js/widget.js");
+        dclsPxl("initWidget", {
+        appId: "a64fd9c44c5b0c957fa36f76d39d47a80e5d5869",
+        boardId: "abcf6f090ecb20af83d067f0498ef7c5"
+      });
+      `,
+        ],
+        [
+            'script',
+            {},
+            `!function() {
+        var callback = () => {
+          var target = document.querySelector('[aria-label="ducalis-changelog-widget"]');
+          if(!target) return;
+          if(!target.classList.contains('ducalis-changelog-widget')) {
+            target.classList.add('ducalis-changelog-widget');
+          }
+        };
+        var observer = new MutationObserver(callback);
+        var start = () => {
+          var target = document.querySelector('[aria-label="ducalis-changelog-widget"]');
+          if(target) {
+            observer.observe(target, { childList: true });
+            callback();
+            return true;
+          }
+          return false;
+        };
+        if(!start()) {
+          var timer = setInterval(() => { if(start()) clearInterval(timer); }, 1000);
+        }
+    }();`,
+        ]
+    ],
+    locales: {
+        root: {
+            label: ' ',
+            lang: 'zh-CN',
+        },
+        en: {
+            label: 'English',
+            lang: 'en-US',
+            link: '/en/',
+            themeConfig: {
+                editLink: {
+                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+                    text: 'Edit this page on GitHub'
+                },
+                nav: [
+                    { text: 'Home', link: '/en/' },
+                    { text: 'Document', link: '/en/menu' },
+                    { text: 'Download', link: '/en/quick-start' },
+                ],
+            }
+        },
+        zh: {
+            label: '简体中文',
+            lang: 'zh-CN',
+            link: '/zh/',
+            themeConfig: {
+                editLink: {
+                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+                    text: '在 GitHub 上编辑此页'
+                },
+                nav: [
+                    { text: '首页', link: '/zh/' },
+                    { text: '文档', link: '/zh/menu' },
+                    { text: '下载', link: '/zh/quick-start' },
+                    {
+                        text: '帮助与支持',
+                        items: [
+                            { text: '更新日志', link: '/zh/statements/update-log' },
+                            {
+                                text: '服务可用性',
+                                items: [
+                                    { text: 'Uptime Kuma', link: 'http://serverjp.wdg.cloudns.ch:3001/status/hts' },
+                                ],
+                            },
+                            {
+                                text: '问题与反馈',
+                                items: [
+                                    { text: '常见问题', link: '/zh/advanced/FAQ' },
+                                    { text: '反馈问题', link: '/zh/statements/bug-report' },
+                                ],
+                            },
+                        ],
+                    },
+                ],
+            }
+        },
+        ru: {
+            label: 'Русский',
+            lang: 'ru-RU',
+            link: '/ru/',
+            themeConfig: {
+                editLink: {
+                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+                    text: 'Редактировать эту страницу на GitHub'
+                },
+            }
+        },
+        id: {
+            label: 'Bahasa Indonesia',
+            lang: 'id-ID',
+            link: '/id/',
+            themeConfig: {
+                editLink: {
+                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+                    text: 'Edit halaman ini di GitHub'
+                },
+            }
+        },
+        jp: {
+            label: '日本語',
+            lang: 'ja-JP',
+            link: '/jp/',
+            themeConfig: {
+                editLink: {
+                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+                    text: 'GitHub でこのページを編集'
+                },
+            }
+        },
+    },
+    themeConfig: {
+        siteTitle: false,
+
+        sidebar: generateSidebar([
+            {
+                documentRootPath: 'docs',
+                scanStartPath: 'zh',
+                resolvePath: '/zh/',
+                useTitleFromFrontmatter: true,
+                useTitleFromFileHeading: true,
+                useFolderTitleFromIndexFile: true,
+                useFolderLinkFromIndexFile: true,
+                sortMenusByFrontmatterOrder: true,
+                hyphenToSpace: true,
+                excludePattern: ['zh/index.md', 'zh/menu.md'],
+                collapsed: false,
+                capitalizeFirst: true,
+            },
+            {
+                documentRootPath: 'docs',
+                scanStartPath: 'en',
+                resolvePath: '/en/',
+                useTitleFromFrontmatter: true,
+                useTitleFromFileHeading: true,
+                useFolderTitleFromIndexFile: true,
+                useFolderLinkFromIndexFile: true,
+                sortMenusByFrontmatterOrder: true,
+                hyphenToSpace: true,
+                excludePattern: ['en/index.md', 'en/menu.md'],
+                collapsed: false,
+                capitalizeFirst: true,
+            },
+            {
+                documentRootPath: 'docs',
+                scanStartPath: 'ru',
+                resolvePath: '/ru/',
+                useTitleFromFrontmatter: true,
+                useTitleFromFileHeading: true,
+                useFolderTitleFromIndexFile: true,
+                useFolderLinkFromIndexFile: true,
+                sortMenusByFrontmatterOrder: true,
+                hyphenToSpace: true,
+                excludePattern: ['ru/index.md', 'ru/menu.md'],
+                collapsed: false,
+                capitalizeFirst: true,
+            },
+            {
+                documentRootPath: 'docs',
+                scanStartPath: 'id',
+                resolvePath: '/id/',
+                useTitleFromFrontmatter: true,
+                useTitleFromFileHeading: true,
+                useFolderTitleFromIndexFile: true,
+                useFolderLinkFromIndexFile: true,
+                sortMenusByFrontmatterOrder: true,
+                hyphenToSpace: true,
+                excludePattern: ['id/index.md', 'id/menu.md'],
+                collapsed: false,
+                capitalizeFirst: true,
+            },
+            {
+                documentRootPath: 'docs',
+                scanStartPath: 'jp',
+                resolvePath: '/jp/',
+                useTitleFromFrontmatter: true,
+                useTitleFromFileHeading: true,
+                useFolderTitleFromIndexFile: true,
+                useFolderLinkFromIndexFile: true,
+                sortMenusByFrontmatterOrder: true,
+                hyphenToSpace: true,
+                excludePattern: ['jp/index.md', 'jp/menu.md'],
+                collapsed: false,
+                capitalizeFirst: true,
+            }
+        ]),
+        logo: 'https://testingcf.jsdelivr.net/gh/hoshiizumiya/images/Logo.ico',
+        search: {
+            provider: 'local',
+            options: {
+                locales: {
+                    zh: {
+                        translations: {
+                            button: {
+                                buttonText: '搜索文档',
+                                buttonAriaLabel: '搜索文档'
+                            },
+                            modal: {
+                                noResultsText: '无法找到相关结果',
+                                resetButtonTitle: '清除查询条件',
+                                footer: {
+                                    selectText: '选择',
+                                    navigateText: '切换'
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka' },
+        ],
+        footer: {
+            message: '以开源社区力量为原神 PC 端玩家提供极致的游戏体验',
+            copyright: `版权所有 © 2023-${new Date().getFullYear()} DGP-Studio with 2025-${new Date().getFullYear()} Millennium-Science-Technology-R-D-Institute`,
+        },
+        editLink: {
+            pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+            text: 'Edit this page on GitHub'
+        },
+    },
+    vue: {
+        template: {
+            compilerOptions: {
+                isCustomElement: (tag: string) => tag === 'ms-store-badge',
+            },
+        },
+    },
+    vite: {
+        plugins: [
+            {
+                name: 'base-redirect',
+                configureServer(server: any) {
+                    server.middlewares.use((req: any, res: any, next: any) => {
+                        if (req.url === '/Snap.Hutao-Manjusaka.Docs') {
+                            res.writeHead(301, { Location: '/Snap.Hutao-Manjusaka.Docs/' })
+                            res.end()
+                        } else {
+                            next()
+                        }
+                    })
+                }
+            }
+        ],
+        build: {
+            chunkSizeWarningLimit: 1500,
+        },
+    },
+})
