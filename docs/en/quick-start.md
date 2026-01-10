@@ -40,7 +40,7 @@ You can install Snap Hutao using the **MSIX installation package** or the **Snap
 
 ::: tabs
 
-@tab Use Snap.Hutao.Deployment Installer
+== Use Snap.Hutao.Deployment Installer
 
 Snap.Hutao.Deployment is a one-click installer made by the development team that **will install all necessary components** at the same time. It is suitable for most ordinary users and users who fail to install with the MSIX application package.
 
@@ -64,7 +64,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 </div>
 
-@tab Use MSIX Installation Package
+== Use MSIX Installation Package
 
 <div class="vp-card-container">
   <div class="hint-container warning">
@@ -133,7 +133,7 @@ Regardless of the method used, please ensure that the account has been initializ
 
 :::: tabs
 
-@tab MiYouShe Mobile Verification Code Login
+== MiYouShe Mobile Verification Code Login
 
 ::: warning
 Please confirm that the MiYouShe account is bound to the Genshin Impact domestic server account.
@@ -142,7 +142,7 @@ Please confirm that the MiYouShe account is bound to the Genshin Impact domestic
 1.  Click the "Mobile Verification Code" button, fill in the mobile phone number and send the verification code.
 2.  After filling in the verification code, confirm, and wait a moment for the account to be added.
 
-@tab MiYouShe QR Code Login
+== MiYouShe QR Code Login
 
 ::: warning
 Please confirm that the MiYouShe account is bound to the Genshin Impact domestic server account.
@@ -152,7 +152,7 @@ Please confirm that the MiYouShe account is bound to the Genshin Impact domestic
 2.  Use the MiYouShe App to scan the QR code and confirm the login.
 3.  Wait a moment, and Snap Hutao will add the account.
 
-@tab HoYoLAB Password Login
+== HoYoLAB Password Login
 
 ::: warning
 Please confirm that the HoYoLAB account is bound to the Genshin Impact international server account.
@@ -161,7 +161,7 @@ Please confirm that the HoYoLAB account is bound to the Genshin Impact internati
 1.  Click the "Password Login" button, fill in the account password, and confirm.
 2.  Wait a moment, and the account will be added.
 
-@tab HoYoLAB Social Media Account Login
+== HoYoLAB Social Media Account Login
 
 This method relies on the WebView2 Runtime component.
 
@@ -172,7 +172,7 @@ HoYoLAB blocks network connections from mainland China by default.
 1.  Click the "Third-Party Login" button and log in through WebView2.
 2.  Wait a moment, and the account will be added.
 
-@tab Cookies Login
+== Cookies Login
 
 ::: warning
 Please keep your Cookie information safe to avoid account risks.

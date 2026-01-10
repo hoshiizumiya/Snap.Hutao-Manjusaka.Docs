@@ -1,4 +1,4 @@
-﻿---
+---
 pageClass: link-box
 externalLinkIcon: false
 category: [功能, 教程]
@@ -37,7 +37,7 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 ::: tabs
 
-@tab 使用 MSI 安装包安装
+== 使用 MSI 安装包安装
 
 <div class="vp-card-container">
   <div class="hint-container warning">
@@ -96,7 +96,7 @@ MSVC 运行库是解锁帧率功能的必要组件。如提示“缺少 XXX.dll�
 
 :::: tabs
 
-@tab 米游社手机验证码登录
+== 米游社手机验证码登录
 
 ::: warning
 请确认米游社账号已绑定国服账号。
@@ -105,7 +105,7 @@ MSVC 运行库是解锁帧率功能的必要组件。如提示“缺少 XXX.dll�
 1. 点击“手机验证码”按钮，填写手机号并发送验证码。
 2. 填写验证码后确认，稍等片刻即可添加账号。
 
-@tab 米游社扫码登录
+== 米游社扫码登录
 
 ::: warning
 请确认米游社账号已绑定国服账号。
@@ -115,7 +115,7 @@ MSVC 运行库是解锁帧率功能的必要组件。如提示“缺少 XXX.dll�
 2. 用米游社 App 扫码并确认登录。
 3. 稍等片刻，胡桃工具箱将添加账号。
 
-@tab HoYoLAB 密码登录
+== HoYoLAB 密码登录
 
 ::: warning
 请确认 HoYoLAB 账号已绑定国际服账号。
@@ -124,7 +124,7 @@ MSVC 运行库是解锁帧率功能的必要组件。如提示“缺少 XXX.dll�
 1. 点击“密码登录”按钮，填写账号密码并确认。
 2. 稍等片刻，账号将被添加。
 
-@tab HoYoLAB 社媒账号登录
+== HoYoLAB 社媒账号登录
 
 此方式依赖 WebView2 运行时组件。
 
@@ -135,7 +135,7 @@ HoYoLAB 默认阻止中国大陆网络连接。
 1. 点击“三方登录”按钮并通过 WebView2 登录。
 2. 稍等片刻，账号将被添加。
 
-@tab Cookies 登录
+== Cookies 登录
 
 ::: warning
 请妥善保存 Cookie 信息，避免账号风险。

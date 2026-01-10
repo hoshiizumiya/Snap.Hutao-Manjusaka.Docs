@@ -25,7 +25,7 @@ Anda dapat menemukan menu akun di sudut kiri bawah antarmuka program utama, di a
 
 :::: tabs
 
-@tab Login Kode Verifikasi Telepon MiYouShe
+== Login Kode Verifikasi Telepon MiYouShe
 
 ::: warning
 Pastikan akun MiYouShe terikat dengan akun server domestik.
@@ -34,7 +34,7 @@ Pastikan akun MiYouShe terikat dengan akun server domestik.
 1. Klik tombol "Kode Verifikasi Telepon", masukkan nomor telepon Anda, dan kirim kode verifikasi.
 2. Masukkan kode verifikasi dan konfirmasi. Tunggu sejenak hingga akun ditambahkan.
 
-@tab Login Kode QR Pindai MiYouShe
+== Login Kode QR Pindai MiYouShe
 
 ::: warning
 Pastikan akun MiYouShe terikat dengan akun server domestik.
@@ -44,7 +44,7 @@ Pastikan akun MiYouShe terikat dengan akun server domestik.
 2. Gunakan aplikasi MiYouShe untuk memindai kode QR dan konfirmasi login.
 3. Tunggu sejenak, dan Snap Hutao akan menambahkan akun tersebut.
 
-@tab Login Kata Sandi HoYoLAB
+== Login Kata Sandi HoYoLAB
 
 ::: warning
 Pastikan akun HoYoLAB terikat dengan akun server internasional.
@@ -53,7 +53,7 @@ Pastikan akun HoYoLAB terikat dengan akun server internasional.
 1. Klik tombol "Login Kata Sandi", masukkan kata sandi akun Anda, dan konfirmasi.
 2. Tunggu sejenak, dan akun akan ditambahkan.
 
-@tab Login Akun Media Sosial HoYoLAB
+== Login Akun Media Sosial HoYoLAB
 
 Metode ini bergantung pada komponen runtime WebView2.
 
@@ -64,7 +64,7 @@ HoYoLAB memblokir koneksi jaringan dari daratan Tiongkok secara default.
 1. Klik tombol "Login Pihak Ketiga" dan login melalui WebView2.
 2. Tunggu sejenak, dan akun akan ditambahkan.
 
-@tab Login Cookie
+== Login Cookie
 
 ::: warning
 Harap simpan informasi Cookie Anda dengan aman untuk menghindari risiko akun.

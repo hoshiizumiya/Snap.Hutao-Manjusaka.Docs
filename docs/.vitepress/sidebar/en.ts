@@ -1,6 +1,4 @@
-import { sidebar } from "vuepress-theme-hope";
-
-export const enSidebar = sidebar({
+export const enSidebar = {
   "/en/": [
     "",
     "project",
@@ -69,4 +67,4 @@ export const enSidebar = sidebar({
       children: "structure",
     },
   ],
-});
+};

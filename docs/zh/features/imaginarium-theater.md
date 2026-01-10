@@ -17,9 +17,9 @@ description: 胡桃工具箱内置的幻想真境剧诗功能支持玩家记录�
 - **本期统计**：展示上传至胡桃数据库的所有玩家挑战时产生的角色出场数据
 
 ::: tabs
-@tab 分期详情
+== 分期详情
 ![personal-record-details](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp)
-@tab 本期统计
+== 本期统计
 ![fantasy-arena-stats](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01dvdsCG1g6e0xyDPo5_!!1797064093.png_.webp)
 :::
 

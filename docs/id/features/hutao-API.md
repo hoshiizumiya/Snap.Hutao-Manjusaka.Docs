@@ -16,15 +16,15 @@ Snap Hutao menyediakan dua fungsi utama terkait statistik tantangan Spiral Abyss
   - "Statistik Saat Ini" sangat bergantung pada data "Detail Jadwal" yang dikirimkan oleh para pemain.
 
 ::: tabs
-@tab Detail Jadwal
+== Detail Jadwal
 ![detail-catatan-pribadi](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp)
-@tab Tingkat Penggunaan Karakter
+== Tingkat Penggunaan Karakter
 ![tingkat-penggunaan-karakter](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01dvdsCG1g6e0xyDPo5_!!1797064093.png_.webp)
-@tab Tingkat Kemunculan Karakter
+== Tingkat Kemunculan Karakter
 ![tingkat-kemunculan-n-penggunaan-karakter](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Pdv5w01g6e0u1ewov_!!1797064093.png_.webp)
-@tab Jumlah Kemunculan Tim
+== Jumlah Kemunculan Tim
 ![hutaoapi](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01k1W4tw1g6e0wOyjdf_!!1797064093.png_.webp)
-@tab Tingkat Kepemilikan Karakter
+== Tingkat Kepemilikan Karakter
 ![tingkat-kepemilikan-karakter](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01bQvukt1g6e0uuU2Fh_!!1797064093.png_.webp)
 :::
 

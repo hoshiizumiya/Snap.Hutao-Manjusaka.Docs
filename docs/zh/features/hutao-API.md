@@ -16,15 +16,15 @@ description: 胡桃工具箱内置的胡桃数据库功能帮助玩家归档并�
   - “本期统计”依赖于玩家提交的“分期详情”数据。
 
 ::: tabs
-@tab 分期详情
+== 分期详情
 ![personal-record-details](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp)
-@tab 角色使用率
+== 角色使用率
 ![character-usage-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01dvdsCG1g6e0xyDPo5_!!1797064093.png_.webp)
-@tab 角色出场率
+== 角色出场率
 ![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Pdv5w01g6e0u1ewov_!!1797064093.png_.webp)
-@tab 队伍出场次数
+== 队伍出场次数
 ![hutaoapi](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01k1W4tw1g6e0wOyjdf_!!1797064093.png_.webp)
-@tab 角色持有率
+== 角色持有率
 ![character-held-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01bQvukt1g6e0uuU2Fh_!!1797064093.png_.webp)
 :::
 

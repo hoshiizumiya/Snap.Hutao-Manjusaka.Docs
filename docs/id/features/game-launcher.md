@@ -183,7 +183,7 @@ Ubah parameter `game_version` sesuai dengan versi game saat ini.
 
 #### Contoh Konten File Konfigurasi
 ::: tabs#game_config_samples
-@tab Server CN Resmi
+== Server CN Resmi
 ```ini
 [General]
 channel=1
@@ -194,7 +194,7 @@ sdk_version=
 game_biz=hk4e_cn
 uapc={"hk4e_cn":{"uapc":""},"hyp":{"uapc":""}}
 ```
-@tab Server Global Resmi
+== Server Global Resmi
 ```ini
 [General]
 channel=1

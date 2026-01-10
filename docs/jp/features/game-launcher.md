@@ -210,7 +210,7 @@ Snap Hutao は、原神の公式サーバーからのみ、サーバーを切り
 #### 設定ファイルの内容例
 
 ::: tabs#game_config_samples
-@tab 中国大陸サーバー Official
+== 中国大陸サーバー Official
 
 ```ini
 [General]
@@ -223,7 +223,7 @@ game_biz=hk4e_cn
 uapc={"hk4e_cn":{"uapc":""},"hyp":{"uapc":""}}
 ```
 
-@tab グローバルサーバー Official
+== グローバルサーバー Official
 
 ```ini
 [General]

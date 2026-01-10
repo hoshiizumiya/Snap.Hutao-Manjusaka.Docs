@@ -206,7 +206,7 @@ Modify the `game_version` parameter according to the actual game version.
 #### Example Configuration File Content
 
 ::: tabs#game_config_samples
-@tab CN Server Official
+== CN Server Official
 
 ```ini
 [General]
@@ -219,7 +219,7 @@ game_biz=hk4e_cn
 uapc={"hk4e_cn":{"uapc":""},"hyp":{"uapc":""}}
 ```
 
-@tab Global Server Official
+== Global Server Official
 
 ```ini
 [General]

@@ -1,6 +1,4 @@
-import { sidebar } from "vuepress-theme-hope";
-
-export const jpSidebar = sidebar({
+export const jpSidebar = {
   "/jp/": [
     "",
     "project",
@@ -70,4 +68,4 @@ export const jpSidebar = sidebar({
       children: "structure",
     },
   ],
-});
+};

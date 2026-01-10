@@ -17,9 +17,9 @@ Fitur ini dibagi menjadi dua bagian utama:
 - **Statistik Fase Saat Ini**: Menampilkan data penggunaan karakter yang dihasilkan dari tantangan semua pemain yang diunggah ke database Snap Hutao.
 
 ::: tabs
-@tab Detail Jadwal
+== Detail Jadwal
 ![detail-catatan-pribadi](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp)
-@tab Statistik Jadwal Saat Ini
+== Statistik Jadwal Saat Ini
 ![statistik-arena-fantasi](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01dvdsCG1g6e0xyDPo5_!!1797064093.png_.webp)
 :::
 

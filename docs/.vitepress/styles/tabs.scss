@@ -1,0 +1,114 @@
+/**
+ * @brief vitepress-plugin-tabs 样式
+ * @see https://vitepress-plugins.sapphi.red/tabs/
+ */
+
+.plugin-tabs {
+  margin: 1.5rem 0;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.plugin-tabs--tab-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: var(--vp-c-bg-soft);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.plugin-tabs--tab {
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-right: 1px solid var(--vp-c-divider);
+  background-color: transparent;
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-weight: 500;
+  font-size: 0.95rem;
+  white-space: nowrap;
+
+  &:last-child {
+    border-right: none;
+  }
+
+  &:hover {
+    background-color: var(--vp-c-default-soft);
+    color: var(--vp-c-brand-1);
+  }
+
+  &[aria-selected="true"] {
+    background-color: var(--vp-c-bg);
+    color: var(--vp-c-brand-1);
+    font-weight: 600;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background-color: var(--vp-c-brand-1);
+    }
+  }
+}
+
+.plugin-tabs--content {
+  padding: 1.5rem;
+  background-color: var(--vp-c-bg);
+
+  > div[role="tabpanel"] {
+    display: none;
+
+    &:not([aria-hidden="true"]) {
+      display: block;
+    }
+  }
+
+  // 内容样式优化
+  :deep(p:first-child) {
+    margin-top: 0;
+  }
+
+  :deep(p:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+// 响应式调整
+@media (max-width: 768px) {
+  .plugin-tabs--tab-list {
+    flex-direction: column;
+  }
+
+  .plugin-tabs--tab {
+    width: 100%;
+    text-align: left;
+    border-right: none;
+    border-bottom: 1px solid var(--vp-c-divider);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &[aria-selected="true"]::after {
+      left: 0;
+      right: auto;
+      width: 3px;
+      height: 100%;
+      top: 0;
+      bottom: 0;
+    }
+  }
+
+  .plugin-tabs--content {
+    padding: 1rem;
+  }
+}

@@ -25,7 +25,7 @@ You can find the account menu in the lower-left corner of the main program inter
 
 :::: tabs
 
-@tab MiYouShe Phone Verification Code Login
+== MiYouShe Phone Verification Code Login
 
 ::: warning
 Please ensure that the MiYouShe account is bound to a domestic server account.
@@ -34,7 +34,7 @@ Please ensure that the MiYouShe account is bound to a domestic server account.
 1. Click the "Phone Verification Code" button, enter your phone number, and send the verification code.
 2. Enter the verification code and confirm. Wait a moment for the account to be added.
 
-@tab MiYouShe Scan QR Code Login
+== MiYouShe Scan QR Code Login
 
 ::: warning
 Please ensure that the MiYouShe account is bound to a domestic server account.
@@ -44,7 +44,7 @@ Please ensure that the MiYouShe account is bound to a domestic server account.
 2. Use the MiYouShe app to scan the QR code and confirm the login.
 3. Wait a moment, and Snap Hutao will add the account.
 
-@tab HoYoLAB Password Login
+== HoYoLAB Password Login
 
 ::: warning
 Please ensure that the HoYoLAB account is bound to an international server account.
@@ -53,7 +53,7 @@ Please ensure that the HoYoLAB account is bound to an international server accou
 1. Click the "Password Login" button, enter your account password, and confirm.
 2. Wait a moment, and the account will be added.
 
-@tab HoYoLAB Social Media Account Login
+== HoYoLAB Social Media Account Login
 
 This method relies on the WebView2 runtime component.
 
@@ -64,7 +64,7 @@ HoYoLAB blocks network connections from mainland China by default.
 1. Click the "Third-Party Login" button and log in via WebView2.
 2. Wait a moment, and the account will be added.
 
-@tab Cookies Login
+== Cookies Login
 
 ::: warning
 Please keep your Cookie information safe to avoid account risks.

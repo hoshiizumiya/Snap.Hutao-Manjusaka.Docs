@@ -1,6 +1,4 @@
-import { sidebar } from "vuepress-theme-hope";
-
-export const idSidebar = sidebar({
+export const idSidebar = {
   "/id/": [
     "",
     "project",
@@ -69,4 +67,4 @@ export const idSidebar = sidebar({
       children: "structure",
     },
   ],
-});
+};

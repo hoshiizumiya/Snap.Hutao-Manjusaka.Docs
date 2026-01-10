@@ -206,7 +206,7 @@ description: 胡桃工具箱的高级启动器支持自定义启动参数、服�
 #### 配置文件内容示例
 
 ::: tabs#game_config_samples
-@tab 国服 Official
+== 国服 Official
 
 ```ini
 [General]
@@ -219,7 +219,7 @@ game_biz=hk4e_cn
 uapc={"hk4e_cn":{"uapc":""},"hyp":{"uapc":""}}
 ```
 
-@tab 国际服 Official
+== 国际服 Official
 
 ```ini
 [General]

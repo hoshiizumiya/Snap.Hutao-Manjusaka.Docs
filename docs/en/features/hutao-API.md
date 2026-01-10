@@ -16,15 +16,15 @@ Snap Hutao provides two main Spiral Abyss challenge statistics functions:
   - "Current Statistics" relies on the "Schedule Details" data submitted by players.
 
 ::: tabs
-@tab Schedule Details
+== Schedule Details
 ![personal-record-details](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp)
-@tab Character Usage Rate
+== Character Usage Rate
 ![character-usage-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01dvdsCG1g6e0xyDPo5_!!1797064093.png_.webp)
-@tab Character Appearance Rate
+== Character Appearance Rate
 ![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Pdv5w01g6e0u1ewov_!!1797064093.png_.webp)
-@tab Team Appearance Count
+== Team Appearance Count
 ![hutaoapi](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01k1W4tw1g6e0wOyjdf_!!1797064093.png_.webp)
-@tab Character Ownership Rate
+== Character Ownership Rate
 ![character-held-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01bQvukt1g6e0uuU2Fh_!!1797064093.png_.webp)
 :::
 

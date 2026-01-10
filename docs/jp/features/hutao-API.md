@@ -20,15 +20,15 @@ Snap Hutaoは、主に以下の2つの深境螺旋挑戦統計機能を提供し
   - 「今期統計」は、プレイヤーが提出した「分期詳細」データに依存します。
 
 ::: tabs
-@tab 分期詳細
+== 分期詳細
 ![personal-record-details](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01ykD0CZ1g6e0sAQMn1_!!1797064093.png_.webp)
-@tab キャラクター使用率
+== キャラクター使用率
 ![character-usage-rate](https://img.alicdn.com/imgextra/i1/1797064093/O1CN01dvdsCG1g6e0xyDPo5_!!1797064093.png_.webp)
-@tab キャラクター出場率
+== キャラクター出場率
 ![character-held-n-usage-rate](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Pdv5w01g6e0u1ewov_!!1797064093.png_.webp)
-@tab チーム出場回数
+== チーム出場回数
 ![hutaoapi](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01k1W4tw1g6e0wOyjdf_!!1797064093.png_.webp)
-@tab キャラクター所持率
+== キャラクター所持率
 ![character-held-rate](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01bQvukt1g6e0uuU2Fh_!!1797064093.png_.webp)
 :::
 
