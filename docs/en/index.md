@@ -58,5 +58,45 @@ features:
     icon: 🚀
     link: /en/features/game-launcher
 
+  - title: Hutao Database
+    details: Community-sourced team comps, weapons, and artifact pairings to browse and share.
+    icon: 🗄️
+    link: /en/features/hutao-API
+
+  - title: Imaginarium Theater
+    details: Archive challenge runs and review historical character appearance rates.
+    icon: 🎭
+    link: /en/features/imaginarium-theater
+
+  - title: Attribute Stats
+    details: Inspect character attributes like level, constellations, weapon, and talents in detail.
+    icon: 📈
+    link: /en/features/character-data
+
+  - title: Hutao Passport
+    details: Cloud backup and sync for wish data, enabling migration across devices.
+    icon: 🛂
+    link: /en/features/hutao-passport
+
+  - title: Growth Planner
+    details: Build personalized farming plans with multi-account support and item tracking.
+    icon: 🧮
+    link: /en/features/develop-plan
+
+  - title: Character Wiki
+    details: Background, ascension materials, and community team suggestions for each character.
+    icon: 👤
+    link: /en/features/character-wiki
+
+  - title: Weapon Wiki
+    details: Review weapon stats, lore, and recommended pairings.
+    icon: ⚔️
+    link: /en/features/weapon-wiki
+
+  - title: Monster Wiki
+    details: Look up enemy stats and mechanics to prepare for battles.
+    icon: 👹
+    link: /en/features/monster-wiki
+
 footer: Built with <a href="https://vitepress.dev/" target="_blank">VitePress</a> | Empowering desktop players with the strength of the open-source community
 ---

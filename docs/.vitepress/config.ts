@@ -69,26 +69,20 @@ export default defineConfig({
             'script',
             {},
             `!function() {
+        var target = document.querySelector('[aria-label="ducalis-changelog-widget"]');
         var callback = () => {
-          var target = document.querySelector('[aria-label="ducalis-changelog-widget"]');
+          target = document.querySelector('[aria-label="ducalis-changelog-widget"]');
           if(!target) return;
           if(!target.classList.contains('ducalis-changelog-widget')) {
             target.classList.add('ducalis-changelog-widget');
           }
         };
         var observer = new MutationObserver(callback);
-        var start = () => {
-          var target = document.querySelector('[aria-label="ducalis-changelog-widget"]');
-          if(target) {
-            observer.observe(target, { childList: true });
-            callback();
-            return true;
-          }
-          return false;
-        };
-        if(!start()) {
-          var timer = setInterval(() => { if(start()) clearInterval(timer); }, 1000);
-        }
+        callback();
+        // 检测定时器
+        var timer = setInterval(callback, 1000);
+        if(target) { clearInterval(timer); }
+        observer.observe(target, { childList: true });
     }();`,
         ]
     ],
