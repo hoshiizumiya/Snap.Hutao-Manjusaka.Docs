@@ -32,6 +32,12 @@
   font-weight: 500;
   font-size: 0.95rem;
   white-space: nowrap;
+  /* 支持通过 CSS 变量自定义每个 tab 的最小宽度或固定宽度。
+     使用示例：在全局或局部样式中设置 `.plugin-tabs { --vp-tab-min-width: 120px; }` */
+  min-width: var(--vp-tab-min-width, auto);
+  /* 默认等分宽度（桌面）：让所有 tab 平均分配可用水平空间。
+      如果需要恢复为不等分（按内容宽度），请覆盖为 `flex: 0 0 auto;` 或设置一个固定/最小宽度。 */
+  flex: 1 1 0;
 
   &:last-child {
     border-right: none;
@@ -60,11 +66,20 @@
   }
 }
 
+/* 当需要等分宽度时，给最外层容器添加 `.plugin-tabs--equal` 类：
+   <div class="plugin-tabs plugin-tabs--equal">... </div>
+   或通过覆盖样式：`.plugin-tabs { --vp-tab-equal: 1 }` */
+.plugin-tabs.plugin-tabs--equal .plugin-tabs--tab {
+  /* 兼容旧的 plugin-tabs--equal 使用，保持居中 */
+  flex: 1 1 0;
+  text-align: center;
+}
+
 .plugin-tabs--content {
   padding: 1.5rem;
   background-color: var(--vp-c-bg);
 
-  > div[role="tabpanel"] {
+  >div[role="tabpanel"] {
     display: none;
 
     &:not([aria-hidden="true"]) {
@@ -89,6 +104,8 @@
   }
 
   .plugin-tabs--tab {
+    /* 在移动端恢复为块级、宽度 100%，不再等分 */
+    flex: 0 0 auto;
     width: 100%;
     text-align: left;
     border-right: none;

@@ -1,7 +1,7 @@
 {
-  "name": "snap.hutao.docs",
+  "name": "snap.hutao.manjusaka.docs",
   "version": "2.0.0",
-  "description": "Documents site for Snap Hutao project",
+  "description": "Documents site for Snap Hutao-Manjusaka project",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -30,5 +30,10 @@
   "nano-staged": {
     "*.{json,md,ts,vue}": "prettier --write"
   },
-  "packageManager": "pnpm@9.15.0"
+  "packageManager": "pnpm@9.15.0",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "autoprefixer": "^10.4.23",
+    "tailwindcss": "^4.1.18"
+  }
 }

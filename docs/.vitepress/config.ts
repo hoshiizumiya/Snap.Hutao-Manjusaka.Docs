@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import tailwindcss from '@tailwindcss/vite'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { generateSidebar } from 'vitepress-sidebar'
 
@@ -296,6 +297,7 @@ export default defineConfig({
     },
     vite: {
         plugins: [
+            tailwindcss(),
             {
                 name: 'base-redirect',
                 configureServer(server: any) {

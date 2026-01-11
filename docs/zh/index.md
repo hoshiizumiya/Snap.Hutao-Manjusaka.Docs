@@ -7,7 +7,7 @@ titleTemplate: 胡桃工具箱-Manjusaka
 hero:
   name: 胡桃工具箱-Manjusaka
   text: 为 Windows 平台打造的开源多功能工具箱
-  tagline: 涵盖高级启动器、祈愿记录导出、实时便笺等功能，全面提升桌面端玩家的游戏体验。
+  tagline: 程序基于胡桃工具箱二次开发，涵盖高级启动器、祈愿记录导出、实时便笺等功能，全面提升桌面端玩家的游戏体验。
   image:
     src: https://testingcf.jsdelivr.net/gh/hoshiizumiya/images/InAppLogo.png
     alt: 胡桃工具箱-Manjusaka
