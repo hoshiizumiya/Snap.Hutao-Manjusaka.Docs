@@ -15,44 +15,9 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 <div class="vp-card-container">
   <VPCard
     title="Discord"
-    desc="Yb8bykaUKp"
+    desc="u9cRFw6f"
     logo="/images/202312/discord.svg"
-    link="https://discord.gg/Yb8bykaUKp"
+    link="https://discord.gg/u9cRFw6f"
     background="rgba(88, 101, 242, 0.15)"
-  />
-  <VPCard
-    title="胡桃 QQ 用户群 1"
-    desc="567908135"
-    logo="/images/202312/tencent.svg"
-    link="https://qm.qq.com/q/1dWqXkCFVQ"
-    background="rgba(228, 0, 54, 0.15)"
-  />
-  <VPCard
-    title="胡桃 QQ 用户群 2"
-    desc="825460590"
-    logo="/images/202312/tencent.svg"
-    link="https://qm.qq.com/q/Fy8j4Ziiac"
-    background="rgba(228, 0, 54, 0.15)"
-  />
-  <VPCard
-    title="胡桃 QQ 用户群 3"
-    desc="663880229"
-    logo="/images/202312/tencent.svg"
-    link="https://qm.qq.com/q/uIYmNeEqWc"
-    background="rgba(228, 0, 54, 0.15)"
-  />
-  <VPCard
-    title="胡桃 QQ 公告群"
-    desc="仅用于发布公告，适合习惯潜水而不希望错过重要消息的用户"
-    logo="/images/202312/tencent.svg"
-    link="https://qun.qq.com/universal-share/share?ac=1&authKey=cMD5dtedhqAh1zwnqYK39BY68wgKDFGGy9NMzP0p%2Fhr7CTiQMrMjGXz3MtqHeC4D&busi_data=eyJncm91cENvZGUiOiI4MDE4ODAyOTAiLCJ0b2tlbiI6IkhMN1haYnA0cjB3V3pUdGI2enpjSXAvdG4zL1pPSXZkWHYzUzdTMDByQ0tUQ3BXMkRBZklxTzZKOW5SckFSYjYiLCJ1aW4iOiI1NjI5NjEwNDgifQ%3D%3D&data=KI14eq9rziPTNyXn3cUiVL6N1BPLB_tHzF-QLBqUMWgk0rIE89ahlllfyPEkdEJ5D0zSLwuyd3DDto14JGvq3g&svctype=4&tempid=h5_group_info"
-    background="rgba(245, 158, 0, 0.15)"
-  />
-  <VPCard
-    title="GitHub Discussion"
-    desc="Snap Hutao 代码库讨论版块始终开放"
-    logo="/images/202312/github-mark.svg"
-    link="https://github.com/DGP-Studio/Snap.Hutao/discussions"
-    background="rgba(155, 233, 168, 0.15)"
   />
 </div>

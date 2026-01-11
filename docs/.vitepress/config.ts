@@ -14,6 +14,14 @@ export default defineConfig({
         config(md: any) {
             md.use(tabsMarkdownPlugin)
         },
+        html: true,
+        container: {
+            tipLabel: '提示',
+            warningLabel: '注意',
+            dangerLabel: '警告',
+            infoLabel: '信息',
+            detailsLabel: '详细信息'
+        }
     },
     head: [
         ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],

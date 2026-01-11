@@ -22,6 +22,16 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 
 ## <HopeIcon icon="iconfont icon-creative" size="2rem" color="rgb(252, 163, 38)" /> 软件开发
 
+**Millennium-Science-Technology-R-D-Inst 成员福利：**
+
+- [x] ~~为 Snap Hutao 和关联项目设计并实现功能~~
+- [x] ~~与其他知名原神社区项目的开发者建立联系~~
+- [x] ~~获取免费的 GitHub Copilot Pro 订阅~~
+- [x] ~~获取免费的 1Password Team 账号~~
+- [x] 啥都木有
+
+[GitHub Millennium-Science-Technology-R-D-Inst People](https://github.com/orgs/Millennium-Science-Technology-R-D-Inst/people)
+
 **DGP-Studio 成员福利：**
 
 - [x] 为 Snap Hutao 和关联项目设计并实现功能
@@ -43,7 +53,7 @@ text: "加入开发者交流群",
 link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
 },
 {
-text: "Snap Hutao 2025 开发规划",
+text: "Snap Hutao Manjusaka 2026 开发规划",
 link: "https://github.com/DGP-Studio/Snap.Hutao/issues/2333",
 type: "default",
 },

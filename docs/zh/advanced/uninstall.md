@@ -8,6 +8,24 @@ description: 卸载胡桃工具箱是一个简单快速的过程，你可以根�
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced/uninstall.html&has_description=False
 ---
 
+# 卸载胡桃工具箱-Manjusaka
+
+卸载 Snap Hutao Manjusaka是一个简单的过程。如果您希望完全移除程序及其相关数据，请按照以下步骤操作：
+
+## 卸载 Snap Hutao Manjusaka应用程序
+
+1. 打开 **开始菜单**。
+2. 搜索 `Snap Hutao`。
+3. 右键点击 Snap Hutao Manjusaka并选择 **“卸载”**。
+
+## 清除数据文件夹（如需完全卸载）
+
+1. 打开文件资源管理器。
+2. 前往以下路径：`%USERPROFILE%\AppData\Local\Hutao`。如果你手动查找那么 AppData 文件夹默认是隐藏的，若无法找到，请确保已启用显示隐藏文件夹的选项。
+3. 删除该 `Hutao` 文件夹。
+::: info
+下面的是原项目的内容，仅作留存参考。
+:::
 # 卸载胡桃工具箱
 
 卸载 Snap Hutao 是一个简单的过程。如果您希望完全移除程序及其相关数据，请按照以下步骤操作：

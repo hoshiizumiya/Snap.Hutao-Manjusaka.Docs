@@ -8,7 +8,9 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 ---
 
 # Loopback 网络
-
+::: tip
+使用 msi 安装包安装的 Snap Hutao 版本没有 msix 存在的问题，无需额外操作。下文仅作留存参考。
+:::
 ## 什么是 Loopback 网络
 
 『Appx 容器应用』是微软推广的一种应用类型，具有诸多优点。为确保其运行效率高、安全稳定且用户友好，微软对这些应用采取了一系列限制措施，其中之一便是『Loopback 网络』。
