@@ -6,8 +6,8 @@ titleTemplate: Snap Hutao-Manjusaka
 
 hero:
   name: Snap Hutao-Manjusaka
-  text: Open-source Multifunctional Toolkit for Windows
-  tagline: Featuring advanced launcher, wish history export, real-time notes, and more, enhancing the gaming experience for desktop players.
+  text: Open-source multifunctional toolkit for Windows platform
+  tagline: The program is based on the secondary development of Hutao Toolbox, including advanced launcher, wish record export, real-time notes and other functions, comprehensively improving the gaming experience for desktop players.
   image:
     src: https://testingcf.jsdelivr.net/gh/hoshiizumiya/images/InAppLogo.png
     alt: Snap Hutao-Manjusaka
@@ -24,79 +24,79 @@ hero:
 
 features:
   - title: Dashboard
-    details: Displays wish history, achievement, game calendar, and event announcements in the simplest way, and provides quick access to launch the game.
+    details: Display wish records, achievement progress, game calendar, event announcements in the simplest way and provide quick access to launch the game.
     icon: 📊
     link: /en/features/dashboard
 
   - title: Real-time Notes
-    details: Breaks free from mobile limitations, receive real-time note notifications on PC, integrated with native Windows notification features.
+    details: Break free from mobile limitations, receive real-time MiHoYo BBS note notifications on PC, integrated with native Windows notification features.
     icon: 📝
     link: /en/features/real-time-notes
 
-  - title: Spiral Abyss Record
+  - title: Abyss Record
     details: Locally save players' Spiral Abyss records, supporting historical record queries and statistical analysis.
     icon: 🌀
     link: /en/features/hutao-API
 
   - title: Multi-Account Switching
-    details: Supports independent management of multiple MiHoYo BBS accounts, easily switching and saving profiles for each account.
+    details: Support independent management of multiple MiHoYo BBS accounts, easily switch and save profiles for each account.
     icon: 🔄
     link: /en/features/mhy-account-switch
 
-  - title: Wish History
-    details: Provides multi-UID switching, retrieves wish history from log files or other exported data, and saves it permanently.
+  - title: Wish Records
+    details: Provide multi-UID switching function, obtain wish records from log files or other exported data, and save permanently.
     icon: 🎲
     link: /en/features/wish-export
 
-  - title: Achievements
-    details: Supports achievement data export and statistics, providing hidden achievement target management.
+  - title: Achievement Records
+    details: Support achievement data export and statistics, provide hidden achievement target management function.
     icon: 🏆
     link: /en/features/achievements
 
   - title: Advanced Launcher
-    details: Provides advanced features such as account switching, server switching, and window settings, optimizing the game launch experience.
+    details: Provide advanced functions such as account switching, server switching, window settings, etc., optimize the game launch experience.
     icon: 🚀
     link: /en/features/game-launcher
 
   - title: Hutao Database
-    details: Community-sourced team comps, weapons, and artifact pairings to browse and share.
+    details: Provide player community team formation, weapon and artifact matching data query and sharing functions.
     icon: 🗄️
     link: /en/features/hutao-API
 
   - title: Imaginarium Theater
-    details: Archive challenge runs and review historical character appearance rates.
+    details: Archive challenge records, query historical data of character appearance rates.
     icon: 🎭
     link: /en/features/imaginarium-theater
 
-  - title: Attribute Stats
-    details: Inspect character attributes like level, constellations, weapon, and talents in detail.
+  - title: Attribute Statistics
+    details: Query specific attributes of characters, including level, constellation, weapon and talent detailed data.
     icon: 📈
     link: /en/features/character-data
 
   - title: Hutao Passport
-    details: Cloud backup and sync for wish data, enabling migration across devices.
+    details: Provide wish data cloud backup and synchronization functions, support data migration between multiple devices.
     icon: 🛂
     link: /en/features/hutao-passport
 
-  - title: Growth Planner
-    details: Build personalized farming plans with multi-account support and item tracking.
+  - title: Cultivation Calculator
+    details: Formulate personalized character development plans, support multi-account and item record functions.
     icon: 🧮
     link: /en/features/develop-plan
 
-  - title: Character Wiki
-    details: Background, ascension materials, and community team suggestions for each character.
+  - title: Character Information
+    details: Provide detailed information such as character background story, cultivation materials and player matching recommendations.
     icon: 👤
     link: /en/features/character-wiki
 
-  - title: Weapon Wiki
-    details: Review weapon stats, lore, and recommended pairings.
+  - title: Weapon Information
+    details: Query weapon attributes and background stories, and obtain character matching recommendation data.
     icon: ⚔️
     link: /en/features/weapon-wiki
 
-  - title: Monster Wiki
-    details: Look up enemy stats and mechanics to prepare for battles.
+  - title: Monster Information
+    details: Query monster attributes and settings, prepare for battles in the game.
     icon: 👹
     link: /en/features/monster-wiki
 
-footer: Built with <a href="https://vitepress.dev/" target="_blank">VitePress</a> | Empowering desktop players with the strength of the open-source community
 ---
+

@@ -11,7 +11,12 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 # 其他常见问题
 
 ## 如何创建胡桃的桌面快捷方式（非管理员模式）
-
+::: tip 新方案
+胡桃工具箱 Manjusaka 支持通过设置页面一键创建桌面快捷方式，推荐使用此方法。
+:::
+::: info
+下面的内容以过时仅保留参考
+:::
 ::: tip 社区力量
 感谢 [CzHUV 提供的解决方案](https://github.com/DGP-Studio/Snap.Hutao.Docs/issues/12)
 :::
@@ -23,11 +28,21 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/advanced
 4. 根据系统提示操作，即可在桌面创建快捷方式。
 
 ## 如何创建胡桃的桌面快捷方式（管理员模式）
-
+::: tip 新方案
+胡桃工具箱 Manjusaka 支持通过设置页面一键创建桌面快捷方式，推荐使用此方法。
+:::
+::: info
+下面的内容以过时仅保留参考
+:::
 - 进入胡桃工具箱的程序设置页面，点击“创建快捷方式”按钮，即可在桌面生成一个具有管理员权限的快捷方式。
 
 ## 如何让胡桃工具箱开机自动启动
-
+::: tip 新方案
+胡桃工具箱 Manjusaka 支持通过设置页面一键开启开机自启，同时同步可以设置是否以管理员模式自启动，推荐使用此方法。
+:::
+::: info
+下面的内容以过时仅保留参考
+:::
 ### 方法一：通过批处理文件
 
 1. 创建一个批处理文件，参考[此 Issue](https://github.com/DGP-Studio/Snap.Hutao/issues/184) 中提供的命令，使胡桃以管理员模式直接运行。

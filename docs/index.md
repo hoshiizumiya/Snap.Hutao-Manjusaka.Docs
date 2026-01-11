@@ -27,3 +27,4 @@ onMounted(() => {
 })
 </script>
 
+<meta name="algolia-site-verification"  content="E74D0D0EDA48B6B3" />
