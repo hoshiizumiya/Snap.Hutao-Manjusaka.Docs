@@ -98,5 +98,4 @@ features:
     icon: 👹
     link: /zh/features/monster-wiki
 
-footer: 使用 <a href="https://vitepress.dev/" target="_blank">VitePress</a> 构建 | 以开源社区力量为原神 PC 端玩家提供极致的游戏体验
 ---

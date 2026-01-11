@@ -1,4 +1,4 @@
----
+﻿---
 pageClass: link-box
 externalLinkIcon: false
 category: [功能, 教程]
@@ -41,12 +41,12 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01FkOS5H1g6e1z8LCaD_!!
 
 <div class="vp-card-container">
   <div class="hint-container warning">
-    <p class="hint-container-title">注意：MSI 安装包是新式的针对 Windows 系统的安装包</p>
+    <p class="hint-container-title">提示：MSI 安装包是新式的针对 Windows 系统的安装包</p>
   </div>
 
 <VPCard
 title="GitHub"
-desc="Snap Hutao 所有版本均会发布于主代码库中"
+desc="Snap Hutao Manjusaka 所有版本均会发布于主代码库中"
 logo="/images/202312/github-mark.svg"
 link="https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka/releases"
 background="rgba(155, 233, 168, 0.15)"
@@ -58,7 +58,7 @@ background="rgba(155, 233, 168, 0.15)"
 
 ---
 
-如果你有兴趣通过你的力量让 Snap Hutao 项目变得更好，欢迎[加入我们](development/join.md)！
+如果你有兴趣通过你的力量让 Snap Hutao Manjusaka 项目变得更好，欢迎[加入我们](development/join.md)！
 
 ### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> 更新胡桃工具箱
 

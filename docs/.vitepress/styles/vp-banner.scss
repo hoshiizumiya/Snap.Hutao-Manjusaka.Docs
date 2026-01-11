@@ -5,93 +5,93 @@
 @use "config" as *;
 
 .vp-banner {
-  display: flex;
-  align-items: center;
-  margin: 2rem 0;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-border);
-  box-shadow: 0 2px 8px var(--vp-c-shadow);
-
-  &-logo {
-    width: 4rem;
-    height: 4rem;
-    margin-right: 1.5rem;
-    border-radius: 50%;
-  }
-
-  &-content {
-    flex: 1;
-  }
-
-  &-title {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-    color: var(--vp-c-text-1);
-  }
-
-  &-desc {
-    color: var(--vp-c-text-2);
-    line-height: 1.6;
-    margin-bottom: 1rem;
-
-    p {
-      margin: 0;
-    }
-  }
-
-  &-actions {
     display: flex;
-    gap: 0.75rem;
-    flex-wrap: wrap;
-  }
-
-  &-action {
-    padding: 0.5rem 1rem;
-    border-radius: 0.375rem;
-    font-size: 0.875rem;
-    font-weight: 500;
-    text-decoration: none;
-    border: 1px solid transparent;
-    transition: all 0.2s ease;
-    cursor: pointer;
-
-    &.primary {
-      background: var(--vp-c-brand);
-      color: var(--vp-c-bg);
-      border-color: var(--vp-c-brand);
-
-      &:hover {
-        background: var(--vp-c-brand-dark);
-        border-color: var(--vp-c-brand-dark);
-      }
-    }
-
-    &.default {
-      background: var(--vp-c-bg);
-      color: var(--vp-c-text-1);
-      border-color: var(--vp-c-border);
-
-      &:hover {
-        background: var(--vp-c-bg-soft);
-        border-color: var(--vp-c-border-hover);
-      }
-    }
-  }
-
-  @media (max-width: $tablet) {
-    flex-direction: column;
-    text-align: center;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: var(--vp-c-bg-soft);
+    border: 1px solid var(--vp-c-border);
+    box-shadow: 0 2px 8px var(--vp-c-shadow);
 
     &-logo {
-      margin-right: 0;
-      margin-bottom: 1rem;
+        width: 4rem;
+        height: 4rem;
+        margin-right: 1.5rem;
+        border-radius: 50%;
+    }
+
+    &-content {
+        flex: 1;
+    }
+
+    &-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: var(--vp-c-text-1);
+    }
+
+    &-desc {
+        color: var(--vp-c-text-2);
+        line-height: 1.6;
+        margin-bottom: 1rem;
+
+        p {
+            margin: 0;
+        }
     }
 
     &-actions {
-      justify-content: center;
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
     }
-  }
+
+    &-action {
+        padding: 0.5rem 1rem;
+        border-radius: 0.375rem;
+        font-size: 0.875rem;
+        font-weight: 500;
+        text-decoration: none;
+        border: 1px solid transparent;
+        transition: all 0.2s ease;
+        cursor: pointer;
+
+        &.primary {
+            background: var(--vp-c-brand);
+            color: var(--vp-c-bg);
+            border-color: var(--vp-c-brand);
+
+            &:hover {
+                background: var(--vp-c-brand-dark);
+                border-color: var(--vp-c-brand-dark);
+            }
+        }
+
+        &.default {
+            background: var(--vp-c-bg);
+            color: var(--vp-c-text-1);
+            border-color: var(--vp-c-border);
+
+            &:hover {
+                background: var(--vp-c-bg-soft);
+                border-color: var(--vp-c-border-hover);
+            }
+        }
+    }
+
+    @media (max-width: $tablet) {
+        flex-direction: column;
+        text-align: center;
+
+        &-logo {
+            margin-right: 0;
+            margin-bottom: 1rem;
+        }
+
+        &-actions {
+            justify-content: center;
+        }
+    }
 }

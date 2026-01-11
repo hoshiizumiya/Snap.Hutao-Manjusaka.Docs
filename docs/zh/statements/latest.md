@@ -1,4 +1,4 @@
-﻿---
+---
 comment: false
 externalLinkIcon: false
 index: false

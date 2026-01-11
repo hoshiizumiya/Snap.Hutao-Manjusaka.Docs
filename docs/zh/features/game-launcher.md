@@ -1,4 +1,4 @@
----
+﻿---
 headerDepth: 2
 category: [功能, 教程]
 tag: [帧率解限, 服务器转换, 切换帐号]
@@ -12,11 +12,15 @@ description: 胡桃工具箱的高级启动器支持自定义启动参数、服�
 ![游戏启动器](https://img.alicdn.com/imgextra/i4/1797064093/O1CN014YLRnj1g6e0zQaBl6_!!1797064093.png_.webp)
 
 胡桃工具箱的高级启动器通过多样的设置选项，提供更灵活的游戏启动体验。
-
+::: warning
+高级启动器功能已暂时停止支持，自定义启动依赖于**非官方软件**，使用时请注意相关风险。
+:::
 ::: caution
 使用**任何非官方软件**都**有概率**导致您的虚拟财产受损，继续使用本软件相关功能将视为**您已知晓并同意**我们的[使用条款](/zh/statements/tos.md)
 :::
-
+::: tip
+下面的内容仅供留存和参考
+:::
 ## 初始化设置
 
 - 点击左侧菜单栏的“启动游戏”进入高级启动器功能。
@@ -183,7 +187,8 @@ description: 胡桃工具箱的高级启动器支持自定义启动参数、服�
 #### 手动恢复游戏主程序
 
 1. **定位备份文件**：
-   - 胡桃工具箱会在 `%userprofile%/Documents/Hutao/ServerCache` 目录下存储转换前的游戏备份文件。
+   - 旧版胡桃工具箱会在 `%userprofile%/Documents/Hutao/ServerCache` 目录下存储转换前的游戏备份文件。
+   - 针对新版胡桃工具箱Manjusaka，前往以下路径：`%USERPROFILE%\AppData\Local\Hutao`。如果你手动查找那么 AppData 文件夹默认是隐藏的，若无法找到，请确保已启用显示隐藏文件夹的选项。
    - 备份文件包括：`GenshinImpact.exe` 和 `GenshinImpact_Data`（国际服），或 `YuanShen.exe` 和 `YuanShen_Data`（国服）。
 2. **检查游戏目录**：
    - 国际服目录应包含 `GenshinImpact.exe` 和 `GenshinImpact_Data`。

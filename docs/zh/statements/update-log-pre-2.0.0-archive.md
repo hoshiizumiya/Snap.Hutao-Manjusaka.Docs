@@ -1,4 +1,4 @@
-﻿---
+---
 category: [公告]
 icon: iconfont icon-update
 index: false

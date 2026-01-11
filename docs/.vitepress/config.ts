@@ -288,7 +288,7 @@ export default defineConfig({
             { icon: 'github', link: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka' },
         ],
         footer: {
-            message: '以开源社区力量为原神 PC 端玩家提供极致的游戏体验',
+            message: '使用 <a href="https://vitepress.dev/" target="_blank">VitePress</a> 构建 | 以开源社区力量为原神 PC 端玩家提供极致的游戏体验',
             copyright: `版权所有 © 2023-${new Date().getFullYear()} DGP-Studio with 2025-${new Date().getFullYear()} Millennium-Science-Technology-R-D-Institute`,
         },
         editLink: {

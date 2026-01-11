@@ -1,4 +1,4 @@
----
+﻿---
 category:
   - 开源
   - 开发
@@ -50,17 +50,17 @@ logo="/images/202312/C_sharp.svg"
 :actions='[
 {
 text: "加入开发者交流群",
-link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
+link:"",
 },
 {
 text: "Snap Hutao Manjusaka 2026 开发规划",
-link: "https://github.com/DGP-Studio/Snap.Hutao/issues/2333",
+link: "",
 type: "default",
 },
 ]'
 />
 
-你可以从 Snap Hutao 2025 开发规划中选择感兴趣的项目并负责实现。可以在相关议题下发表回复，或者通过开发者交流群寻求协作解决开发中遇到的问题。
+你可以从 Snap Hutao 2026 开发规划中选择感兴趣的项目并负责实现。可以在相关议题下发表回复，或者通过开发者交流群寻求协作解决开发中遇到的问题。
 
 ---
 
@@ -77,11 +77,11 @@ logo="/images/202312/documents.svg"
 :actions='[
 {
 text: "加入开发者交流群",
-link:"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H9MPsV7oddNQQGyaK0_7Jnbg5S3alZm9&authKey=1ODJkUXcb4eEgj6cmf450Ms4wQ41c3MLkSXdKG9LTfPh7zfc6nNDUlOr3miHr5tq&noverify=0&group_code=198489038",
+link:"",
 },
 {
-text: "Snap Hutao 文档",
-link: "https://github.com/DGP-Studio/Snap.Hutao.Docs",
+text: "Snap Hutao Manjusaka文档",
+link: "https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs",
 type: "default",
 },
 ]'

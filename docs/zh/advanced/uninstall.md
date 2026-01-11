@@ -1,4 +1,4 @@
----
+﻿---
 category: [FAQ]
 icon: iconfont icon-delete
 tag: [卸载]
