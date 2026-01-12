@@ -33,7 +33,7 @@ features:
     icon: 📝
     link: /en/features/real-time-notes
 
-  - title: Abyss Record
+  - title: Spiral Abyss Record
     details: Locally save players' Spiral Abyss records, supporting historical record queries and statistical analysis.
     icon: 🌀
     link: /en/features/hutao-API

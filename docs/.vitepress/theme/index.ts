@@ -4,6 +4,8 @@ import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 import Layout from './Layout.vue'
 import VPCard from './components/VPCard'
 import VPBanner from './components/VPBanner'
+import Catalog from '../components/Catalog.vue'
+import CatalogItem from '../components/CatalogItem.vue'
 import './style/tailwind.css'
 import './style/dark.css'
 import './style/home.css'
@@ -21,5 +23,7 @@ export default {
         enhanceAppWithTabs(app)
         app.component('VPCard', VPCard)
         app.component('VPBanner', VPBanner)
+        app.component('Catalog', Catalog)
+        app.component('CatalogItem', CatalogItem)
     }
 } satisfies Theme

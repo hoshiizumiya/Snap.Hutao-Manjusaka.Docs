@@ -5,9 +5,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:build": "vitepress build docs",
+    "docs:build": "node generate-catalog.js && vitepress build docs",
     "docs:clean-dev": "vitepress dev docs --clean-cache",
-    "docs:dev": "vitepress dev docs",
+    "docs:dev": "node generate-catalog.js && vitepress dev docs",
     "lint": "prettier --check --write .",
     "update:theme": "pnpm dlx vp-update",
     "prepare": "husky"
