@@ -15,7 +15,7 @@ const router = useRouter()
 
 onMounted(() => {
   const lang = navigator.language.split('-')[0]
-  const supportedLangs = ['zh', 'en', 'ru', 'id', 'jp']
+  const supportedLangs = ['zh', 'en', 'ru', 'id', 'jp', 'tw']
   const targetLang = supportedLangs.includes(lang) ? lang : 'zh'
   
   // 避免无限循环

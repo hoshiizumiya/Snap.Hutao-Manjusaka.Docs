@@ -76,7 +76,7 @@ function scanDirectory(dir, basePath = '', lang) {
   return tree;
 }
 
-const languages = ['zh', 'en', 'ru', 'id', 'jp'];
+const languages = ['zh', 'en', 'ru', 'id', 'jp', 'tw'];
 const trees = {};
 
 for (const lang of languages) {

@@ -184,6 +184,41 @@ export default defineConfig({
                 },
             }
         },
+        tw: {
+            label: '繁體中文',
+            lang: 'zh-TW',
+            link: '/tw/',
+            themeConfig: {
+                editLink: {
+                    pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
+                    text: '在 GitHub 上編輯此頁'
+                },
+                nav: [
+                    { text: '首頁', link: '/tw/' },
+                    { text: '文檔', link: '/tw/menu' },
+                    { text: '下載', link: '/tw/quick-start' },
+                    {
+                        text: '幫助與支援',
+                        items: [
+                            { text: '更新日誌', link: '/tw/statements/update-log' },
+                            {
+                                text: '服務可用性',
+                                items: [
+                                    { text: 'Uptime Kuma', link: 'http://serverjp.wdg.cloudns.ch:3001/status/hts' },
+                                ],
+                            },
+                            {
+                                text: '問題與回饋',
+                                items: [
+                                    { text: '常見問題', link: '/tw/advanced/FAQ' },
+                                    { text: '回饋問題', link: '/tw/statements/bug-report' },
+                                ],
+                            },
+                        ],
+                    },
+                ],
+            }
+        },
     },
     themeConfig: {
         siteTitle: false,
@@ -258,6 +293,20 @@ export default defineConfig({
                 excludePattern: ['jp/index.md', 'jp/menu.md'],
                 collapsed: false,
                 capitalizeFirst: true,
+            },
+            {
+                documentRootPath: 'docs',
+                scanStartPath: 'tw',
+                resolvePath: '/tw/',
+                useTitleFromFrontmatter: true,
+                useTitleFromFileHeading: true,
+                useFolderTitleFromIndexFile: true,
+                useFolderLinkFromIndexFile: true,
+                sortMenusByFrontmatterOrder: true,
+                hyphenToSpace: true,
+                excludePattern: ['tw/index.md', 'tw/menu.md'],
+                collapsed: false,
+                capitalizeFirst: true,
             }
         ]),
         logo: 'https://testingcf.jsdelivr.net/gh/hoshiizumiya/images/Logo.ico',
@@ -277,6 +326,22 @@ export default defineConfig({
                                 footer: {
                                     selectText: '选择',
                                     navigateText: '切换'
+                                }
+                            }
+                        }
+                    },
+                    tw: {
+                        translations: {
+                            button: {
+                                buttonText: '搜尋文檔',
+                                buttonAriaLabel: '搜尋文檔'
+                            },
+                            modal: {
+                                noResultsText: '無法找到相關結果',
+                                resetButtonTitle: '清除查詢條件',
+                                footer: {
+                                    selectText: '選擇',
+                                    navigateText: '切換'
                                 }
                             }
                         }

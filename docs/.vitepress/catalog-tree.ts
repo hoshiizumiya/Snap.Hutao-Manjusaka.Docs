@@ -1162,5 +1162,229 @@ export const catalogTrees = {
       "title": "支援のお願い",
       "path": "jp/support-us"
     }
+  },
+  "tw": {
+    "advanced": {
+      "title": "高級",
+      "path": "tw/advanced",
+      "children": {
+        "exceptions": {
+          "title": "常見的程序異常",
+          "path": "tw/advanced/exceptions"
+        },
+        "FAQ": {
+          "title": "其他常見問題",
+          "path": "tw/advanced/FAQ"
+        },
+        "Gacha-system-and-export-principal": {
+          "title": "祈願系統與導出原理",
+          "path": "tw/advanced/Gacha-system-and-export-principal"
+        },
+        "get-stoken-cookie-from-the-third-party": {
+          "title": "使用第三方工具獲取有 Stoken 的 cookie",
+          "path": "tw/advanced/get-stoken-cookie-from-the-third-party"
+        },
+        "index": {
+          "title": "高級",
+          "path": "tw/advanced"
+        },
+        "known-issue": {
+          "title": "已知問題",
+          "path": "tw/advanced/known-issue"
+        },
+        "loopback": {
+          "title": "Loopback 網絡",
+          "path": "tw/advanced/loopback"
+        },
+        "uninstall": {
+          "title": "卸載胡桃工具箱-Manjusaka",
+          "path": "tw/advanced/uninstall"
+        }
+      }
+    },
+    "blog": {
+      "title": "開發日誌",
+      "path": "tw/blog",
+      "children": {
+        "index": {
+          "title": "開發日誌",
+          "path": "tw/blog"
+        },
+        "version-1-9-0-breaking-changes": {
+          "title": "1.9.0 版本重大改變詳解",
+          "path": "tw/blog/version-1-9-0-breaking-changes"
+        }
+      }
+    },
+    "community": {
+      "title": "加入用戶社區",
+      "path": "tw/community"
+    },
+    "development": {
+      "title": "開源開發",
+      "path": "tw/development",
+      "children": {
+        "contribute": {
+          "title": "貢獻你的代碼",
+          "path": "tw/development/contribute"
+        },
+        "index": {
+          "title": "開源開發",
+          "path": "tw/development"
+        },
+        "join": {
+          "title": "加入我們",
+          "path": "tw/development/join"
+        },
+        "platform": {
+          "title": "胡桃開放平臺",
+          "path": "tw/development/platform"
+        },
+        "symposium1": {
+          "title": "第一期開發組座談會",
+          "path": "tw/development/symposium1"
+        },
+        "symposium2": {
+          "title": "第二期開發組座談會",
+          "path": "tw/development/symposium2"
+        }
+      }
+    },
+    "features": {
+      "title": "功能指南",
+      "path": "tw/features",
+      "children": {
+        "achievements": {
+          "title": "成就管理",
+          "path": "tw/features/achievements"
+        },
+        "character-data": {
+          "title": "我的角色",
+          "path": "tw/features/character-data"
+        },
+        "character-wiki": {
+          "title": "角色資料",
+          "path": "tw/features/character-wiki"
+        },
+        "dashboard": {
+          "title": "首頁儀表盤",
+          "path": "tw/features/dashboard"
+        },
+        "develop-plan": {
+          "title": "養成計劃",
+          "path": "tw/features/develop-plan"
+        },
+        "feedback-center": {
+          "title": "反饋中心",
+          "path": "tw/features/feedback-center"
+        },
+        "game-launcher": {
+          "title": "高級啟動器",
+          "path": "tw/features/game-launcher"
+        },
+        "hutao-API": {
+          "title": "胡桃數據庫 / 深淵統計",
+          "path": "tw/features/hutao-API"
+        },
+        "hutao-passport": {
+          "title": "胡桃賬號",
+          "path": "tw/features/hutao-passport"
+        },
+        "hutao-settings": {
+          "title": "軟件設置",
+          "path": "tw/features/hutao-settings"
+        },
+        "imaginarium-theater": {
+          "title": "幻想真境劇詩",
+          "path": "tw/features/imaginarium-theater"
+        },
+        "index": {
+          "title": "功能指南",
+          "path": "tw/features"
+        },
+        "mhy-account-switch": {
+          "title": "米遊社多賬號切換",
+          "path": "tw/features/mhy-account-switch"
+        },
+        "monster-wiki": {
+          "title": "怪物資料",
+          "path": "tw/features/monster-wiki"
+        },
+        "real-time-notes": {
+          "title": "實時便箋",
+          "path": "tw/features/real-time-notes"
+        },
+        "setup": {
+          "title": "初始化引導",
+          "path": "tw/features/setup"
+        },
+        "weapon-wiki": {
+          "title": "武器資料",
+          "path": "tw/features/weapon-wiki"
+        },
+        "wish-export": {
+          "title": "祈願記錄",
+          "path": "tw/features/wish-export"
+        }
+      }
+    },
+    "i18n": {
+      "title": "國際化支持",
+      "path": "tw/i18n"
+    },
+    "index": {
+      "title": "index",
+      "path": "tw"
+    },
+    "menu": {
+      "title": "全站目錄",
+      "path": "tw/menu"
+    },
+    "project": {
+      "title": "項目說明",
+      "path": "tw/project"
+    },
+    "quick-start": {
+      "title": "快速開始",
+      "path": "tw/quick-start"
+    },
+    "statements": {
+      "title": "聲明和公告",
+      "path": "tw/statements",
+      "children": {
+        "abuse-report": {
+          "title": "濫用舉報",
+          "path": "tw/statements/abuse-report"
+        },
+        "bug-report": {
+          "title": "提交 BUG 報告",
+          "path": "tw/statements/bug-report"
+        },
+        "index": {
+          "title": "聲明和公告",
+          "path": "tw/statements"
+        },
+        "latest": {
+          "title": "🎉 已成功更新至 V2.1.0 版本",
+          "path": "tw/statements/latest"
+        },
+        "privacy-notice": {
+          "title": "用戶數據和隱私權益",
+          "path": "tw/statements/privacy-notice"
+        },
+        "tos": {
+          "title": "用戶使用協議和法律聲明",
+          "path": "tw/statements/tos"
+        },
+        "update-log-pre-2.0.0-archive": {
+          "title": "早於 2.0.0 版本的更新日誌",
+          "path": "tw/statements/update-log-pre-2.0.0-archive"
+        },
+        "update-log": {
+          "title": "更新日誌",
+          "path": "tw/statements/update-log"
+        }
+      }
+    }
   }
 };
