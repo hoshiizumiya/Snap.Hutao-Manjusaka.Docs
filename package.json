@@ -5,9 +5,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:build": "node generate-catalog.js && vitepress build docs",
+    "docs:build": "node sync-tw.js && node generate-catalog.js && vitepress build docs",
     "docs:clean-dev": "vitepress dev docs --clean-cache",
-    "docs:dev": "node generate-catalog.js && vitepress dev docs",
+    "docs:dev": "node sync-tw.js && node generate-catalog.js && vitepress dev docs",
     "lint": "prettier --check --write .",
     "update:theme": "pnpm dlx vp-update",
     "prepare": "husky"
@@ -35,6 +35,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "autoprefixer": "^10.4.23",
+    "fs-extra": "^11.3.3",
     "opencc-js": "^1.0.5",
     "tailwindcss": "^4.1.18"
   }
