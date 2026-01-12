@@ -9,7 +9,28 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 ---
 
 # 更新日志
-V2.0.3.0 Release Latest
+V2.1.0 Release<Badge text="最新版" type="tip" />
+- 新增：
+  - ✨添加了开源信息
+  - ✨优化了设置页面的布局
+  - ✨优化了程序名称获取逻辑和显示
+  - ✨优化了下载对话框的 UI 提示效果
+  - ✨优化了部分界面语言
+  - ✨重构自动签到逻辑，现在支持手动切换账号后多账号的自动签到和跨天签到
+  - ✨自动签到现在应该不会重复签到或者与UI不同步了
+  - ✨重构自启动逻辑，现在自启动会永远同步始终以管理员运行状态了
+  - ✨优化了创建快捷方式逻辑，删除了快捷方式附带的版本信息，添加选项对应的图标
+- 修复：
+  - 🛠️修复下载对话框测试路径
+  - 🛠️修复主页游戏启动操作未能触发延迟启动
+  - 🛠️修复自定义启动-延迟启动 DataTable 列拖动导致闪退
+  - 🛠️修复偶现的重启失败
+  - 🛠️修复 LZMA/LZMA2 格式解压缩错误
+- 已知问题：
+  - ❔无法使用成就导入功能
+  - ❔注入功能暂不可用
+  - ❔IP 检测服务未上线
+
 V2.0.3.0 Release
 新增：
 ✨优化了自定义启动界面的 UI
@@ -26,31 +47,6 @@ V2.0.3.0 Release
 github mirror (请自行检查域可用性): https://gh-proxy.net/github.com/hoshiizumiya/Snap.Hutao-Manjusaka/releases/download/V2.0.3.0/Snap.Hutao.Installer-V2.0.3.0.7z
 github mirrors站点监控: https://uptime.akams.cn/status/philanthropy
 
-V2.0.3.0 Release
-Add
-✨Optimized the UI of the custom startup interface
-✨The function of launching delayed startup programs has been launched, making it easier to start delayed startup programs now
-✨Optimized and improved multi-language support in multiple areas
-Fix:
-🛠️ Improved stability in certain scenarios
-🛠️ Synchronize WDG repair weapon ID
-Known issues:
-❔ Unable to use the achievement import function
-❔IP detection service is not online
-❔ The fallback mechanism for unwritten metadata in some languages cannot hide the default unavailable role, and entering it will result in an unrecoverable error
-
-Assets
-3
-Snap.Hutao.Installer-V2.0.3.0.7z
-sha256:84a29cafbf579a08b9a831788e248956976c5b94b8cdbd260040b82d2bdfc602
-115 MB
-3 days ago
-Source code
-(zip)
-3 days ago
-Source code
-(tar.gz)
-3 days ago
 V2.0.2.0 Release
 4 days ago
 @hoshiizumiya hoshiizumiya
@@ -74,22 +70,6 @@ V2.0.2.0 Release
 github mirror (请自行检查域可用性): https://gh-proxy.net/github.com/hoshiizumiya/Snap.Hutao-Manjusaka/releases/download/V2.0.2.0/Snap.Hutao.Installer-V2.0.2.0.7z
 github mirrors站点监控: https://uptime.akams.cn/status/philanthropy
 
-V2.0.2.0 Release
-Add
-✨Custom launch is now available. Yes, you can now customize, obtain, and download any program you want that hasn't been implemented in Hu Tao
-✨Delay startup and launch, you can quickly start other programs at the same time
-✨Optimized and improved multi-language support in multiple areas
-Fix:
-🛠️ Fixed the issue where Christmas could not end
-🛠️ Improved stability in certain scenarios
-🛠️ Resolved issues where the program occasionally fails to start with administrator privileges and cannot be launched under low UAC settings
-Known issues:
-❔ Unable to use the achievement import function
-❔IP detection service is not online
-❔ The fallback mechanism for unwritten metadata in some languages cannot hide the default unavailable role, and entering it will result in an unrecoverable error
-
-Assets
-3
 V2.0.1.0 Release
 last month
 @hoshiizumiya hoshiizumiya
@@ -117,50 +97,6 @@ V2.0.1.0 Release
 ❔注入功能暂不可用
 ❔IP 检测服务未上线
 ❔在部分语言下为未编写元数据做的回退机制不能隐藏默认的不可用角色，进入将导致不可恢复错误
-
-🎁🎄 Release V2.0.1.0 🎄🎁
-New:
-✨ Merry Christmas!
-✨ Auto check-in feature launched.
-✨ Documentation homepage for Snap Hu TaoLink
-✨ Project renamed to Snap Hutao Manjusaka.
-✨ Hu Tao Cloud functionality launched.
-✨ Enhanced partial multilingual support.
-✨ New logo and icons introduced.
-✨Add new Christmas theme, only enable once in this Dec, disable it at setting page
-Fix:
-🛠️ Disabled theme switching for developers.
-🛠️ Improved stability in certain scenarios.
-🛠️ Fixed navigation links on some pages.
-🛠️ Add autostart dependency lost Inforbarmessage, temporary using local build msi package to fix lost C++ Runner.dll in github action issue (V2.0.1)
-Known issues:
-❔Can't use achievement import fuction(Yae).
-❔Some new characters metadata are not complete.
-❔Game injection fuction are not available.
-❔IP detection service are not online.
-❔The fallback mechanism for unwritten metadata in some languages cannot hide default unavailable roles, which will result in unrecoverable errors if entered
-## V2.0.1 <Badge text="最新版" type="tip" />
-- 新增：
-  - ✨圣诞快乐
-  - ✨自动签到功能上线
-  - ✨胡桃-彼岸 的文档主页上线链接
-  - ✨项目更名 Snap Hutao Manjusaka
-  - ✨项目更名 Snap.Hutao-Manjusaka
-  - ✨胡桃云功能上线
-  - ✨完善了部分多语言支持
-  - ✨新的 logo 和图标
-  - ✨引入了新的圣诞表情，仅此次在12月开启一次，在设置中启用或关闭
-- 修复：
-  - 🛠️关闭了针对开发人员的主题切换
-  - 🛠️提高了部分场景下的稳定性
-  - 🛠️修复部分页面下相关跳转链接
-  - 🛠️添加自启动依赖缺失提示、临时使用本地构建包以修复 action 中缺失的Runner.dll（V2.0.1）
-- 已知问题：
-  - ❔无法使用成就导入功能
-  - ❔新角色数据未编写完整
-  - ❔注入功能暂不可用
-  - ❔IP 检测服务未上线
-  - ❔在部分语言下为未编写元数据做的回退机制不能隐藏默认的不可用角色，进入将导致不可恢复错误
 
 ## V2.0.0 前的原项目开发日志
 

@@ -4,7 +4,7 @@ category: [Feature, Tutorial]
 tag: [Character showcase, Character statistics]
 order: 8
 comment: false
-description: The "My Characters" feature in Snap Hutao can retrieve and display detailed data of the characters under a Genshin Impact account, including level, constellations, talents, and artifact attributes, and provide analysis.
+description: The "My Characters" feature in Snap Hutao Manjusaka can retrieve and display detailed data of the characters under a Genshin Impact account, including level, constellations, talents, and artifact attributes, and provide analysis.
 ---
 
 # My Characters

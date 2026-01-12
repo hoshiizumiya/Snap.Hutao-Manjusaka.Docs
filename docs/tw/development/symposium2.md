@@ -3,7 +3,9 @@ headerDepth: 2
 comment: false
 index: false
 ---
-
+::: info
+可能存在過時的信息，僅作參考和存檔
+:::
 **警告：下面的部分內容可能存在過時的信息，請移步 [GitHub](https://github.com/DGP-Studio/Snap.Hutao) 以獲取最新信息。**
 
 # 第二期開發組座談會

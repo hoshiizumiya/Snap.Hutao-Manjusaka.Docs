@@ -12,4 +12,7 @@ icon: iconfont icon-workingDirectory
 ::: important
 この翻訳はGoogle Geminiモデルによって作成されたものであり、PRによる修正を歓迎します。
 :::
+::: warning
+Time is limited, some contents may be incomplete or outdated.
+:::
 <Catalog base="/jp/" :level="3" />

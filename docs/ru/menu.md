@@ -7,4 +7,7 @@ icon: iconfont icon-workingDirectory
 ---
 
 # Меню сайта
+::: warning
+Time is limited, some contents may be incomplete or outdated.
+:::
 <Catalog :level="3" />

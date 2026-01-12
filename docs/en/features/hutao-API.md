@@ -4,12 +4,12 @@ category: [Feature, Tutorial]
 tag: [Sprial Abyss, Hutao Database, Spiral Abyss Statistics]
 order: 9
 comment: false
-description: Snap Hutao's built-in Hutao Database feature helps players archive and query Spiral Abyss challenge data, providing comprehensive statistical analysis and supporting players to upload data to the database.
+description: Snap Hutao Manjusaka's built-in Hutao Database feature helps players archive and query Spiral Abyss challenge data, providing comprehensive statistical analysis and supporting players to upload data to the database.
 ---
 
 # Hutao Database / Abyss Statistics
 
-Snap Hutao provides two main Spiral Abyss challenge statistics functions:
+Snap Hutao Manjusaka provides two main Spiral Abyss challenge statistics functions:
 
 - **Schedule Details**: Helps players save data for each period of the Spiral Abyss challenge for personal data review and statistics.
 - **Current Statistics**: Displays Spiral Abyss data from all players who have uploaded it to the Hutao Database, providing players with a reference for character and team usage.
@@ -52,14 +52,14 @@ All calculations are based on **player data uploaded to the Hutao Database** and
 
 ## Uploading Spiral Abyss Data
 
-### Using the Snap Hutao Client
+### Using the Snap Hutao Manjusaka Client
 
-::: important Snap Hutao Cloud Privilege Reward
-After successfully submitting data for the first time, you will receive a 3-day "Snap Hutao Cloud Wish Record Backup Service" privilege as a reward (even if you have not cleared Floor 12).
+::: important Snap Hutao Manjusaka Cloud Privilege Reward
+After successfully submitting data for the first time, you will receive a 3-day "Snap Hutao Manjusaka Cloud Wish Record Backup Service" privilege as a reward (even if you have not cleared Floor 12).
 :::
 
 1. Click "Spiral Abyss" in the left menu bar.
-2. Click "Refresh Data" in the upper right corner to ensure Snap Hutao has obtained the latest personal Spiral Abyss data.
+2. Click "Refresh Data" in the upper right corner to ensure Snap Hutao Manjusaka has obtained the latest personal Spiral Abyss data.
 3. Click the "Upload Data" button to submit the data.
 
 - Uploading may take a few seconds. A success message will be displayed when complete.
@@ -80,7 +80,7 @@ This method does not apply to HoYoLAB.
 
 ## Data Sharing
 
-Snap Hutao jointly maintains the Hutao Database with other developers. Users can view Spiral Abyss statistics and upload data in multiple applications. Currently, collaborating applications include:
+Snap Hutao Manjusaka jointly maintains the Hutao Database with other developers. Users can view Spiral Abyss statistics and upload data in multiple applications. Currently, collaborating applications include:
 
 <div class="vp-card-container">
 

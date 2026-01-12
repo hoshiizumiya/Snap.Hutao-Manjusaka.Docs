@@ -5,7 +5,7 @@ category:
 icon: iconfont icon-read
 order: 7
 comment: false
-description: There are some third-party tools that can help you obtain the cookie from the miHoYo community with the Stoken field value and use it for Snap Hutao.
+description: There are some third-party tools that can help you obtain the cookie from the miHoYo community with the Stoken field value and use it for Snap Hutao Manjusaka.
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/advanced/get-stoken-cookie-from-the-third-party.html&has_description=False
 ---
 
@@ -36,8 +36,8 @@ Android users can utilize the open-source project GetToken to acquire cookies co
 - Click 🔑 icon in the top right corner.
 - Check the `Stoken` option.
 - Click `Copy Login Information`.
-- Send the copied Stoken to the computer where the Snap Hutao is installed.
-- In the Snap Hutao's account login section, click `Manual Input`.
+- Send the copied Stoken to the computer where the Snap Hutao Manjusaka is installed.
+- In the Snap Hutao Manjusaka's account login section, click `Manual Input`.
 - Enter the previously obtained cookie. You should now complete the login process.
 
 ## iOS
@@ -48,6 +48,6 @@ iOS Users can download the packet capture software Stream from the App Store to 
 - Perform packet capture analysis on the domain `api-takumi.mihoyo.com`.
 - Locate and copy the data containing `Stoken`.
   - It will be in the form of `stuid=****;stoken=v2****;mid=****;`.
-- Send the copied Stoken to the computer where the Snap Hutao is installed.
-- In the Snap Hutao's account login section, click `Manual Input`.
+- Send the copied Stoken to the computer where the Snap Hutao Manjusaka is installed.
+- In the Snap Hutao Manjusaka's account login section, click `Manual Input`.
 - Enter the obtained cookie. You should now complete the login process.

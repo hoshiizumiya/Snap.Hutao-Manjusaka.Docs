@@ -4,17 +4,29 @@ category: [Feature, Tutorial]
 tag: [unlock framerate, server switch, switch account]
 order: 4
 comment: false
-description: Snap Hutao's advanced launcher offers features such as custom launch parameters, server switching, and frame rate unlocking, significantly enhancing the user's gaming experience.
+description: Snap Hutao Manjusaka's advanced launcher supports custom launch parameters, server switching, frame rate unlocking and other functions, significantly enhancing the user's gaming experience.
 ---
+
+::: caution
+Developers are not responsible for any functions. Using related functions means the user agrees to bear the relevant risks themselves.
+:::
 
 # Advanced Game Launcher
 
 ![Game Launcher](https://img.alicdn.com/imgextra/i4/1797064093/O1CN014YLRnj1g6e0zQaBl6_!!1797064093.png_.webp)
 
-Snap Hutao's advanced launcher provides a more flexible game launch experience through various settings options.
+Snap Hutao Manjusaka's advanced launcher provides a more flexible game launch experience through various settings options.
+
+::: warning
+The advanced launcher feature has been temporarily discontinued. Custom launch depends on **unofficial software**, please be aware of the risks when using it.
+:::
 
 ::: caution
-Using **any unofficial software** may **potentially** result in **damage to your virtual property**. Continuing to use the related functions of this software will be deemed as you acknowledging and agreeing to our [Terms of Service](/en/statements/tos.md).
+Using **any unofficial software** has a **probability** of causing damage to your virtual property. Continuing to use related functions of this software will be deemed as **you have acknowledged and agreed** to our [Terms of Service](/en/statements/tos.md)
+:::
+
+::: tip
+The following content is for retention and reference only
 :::
 
 ## Initial Settings
@@ -24,14 +36,14 @@ Using **any unofficial software** may **potentially** result in **damage to your
   - **Please select the game's main program path (`YuanShen.exe`), not the launcher path (`launcher.exe`).**
     - Example path: `D:\miHoYo Launcher\games\Genshin Impact Game\YuanShen.exe`
   - After successfully detecting the game path, click "Confirm."
-  - If the game is not installed, click the "Install Game" button and follow the prompts to set the installation directory. Snap Hutao will automatically download and install the game.
+  - If the game is not installed, click the "Install Game" button and follow the prompts to set the installation directory. Snap Hutao Manjusaka will automatically download and install the game.
 - After configuration, click the "Launch Game" button in the upper right corner to launch the game.
 
 ## Server Switching
 
 ::: tip Permission Notice
-Using this feature requires running Snap Hutao with administrator privileges.
-Snap Hutao will create a folder named `ServerCache` in the data directory to store the files needed for switching servers and will automatically check for updates.
+Using this feature requires running Snap Hutao Manjusaka with administrator privileges.
+Snap Hutao Manjusaka will create a folder named `ServerCache` in the data directory to store the files needed for switching servers and will automatically check for updates.
 :::
 
 1. Go to the "Launch Game" page.
@@ -49,7 +61,7 @@ Snap Hutao will create a folder named `ServerCache` in the data directory to sto
 | Global Epic     | HoYoverse global servers using the Epic payment gateway                    |
 | Global Google   | HoYoverse global servers using the Google Pay payment gateway              |
 
-Click the "Launch" button in the upper right corner. Snap Hutao will download the relevant files from the official server, apply them, and then launch the game.
+Click the "Launch" button in the upper right corner. Snap Hutao Manjusaka will download the relevant files from the official server, apply them, and then launch the game.
 
 ## Account Saving
 
@@ -58,7 +70,7 @@ This feature records the login status of Genshin Impact accounts.
 :::
 
 1. Go to the "Launch Game" page.
-2. Click "Detect Account." Snap Hutao will save the current game's login status.
+2. Click "Detect Account." Snap Hutao Manjusaka will save the current game's login status.
 3. Enter a name in the "Name Account" window that appears and click "Confirm."
 4. Log out of the current account and log in to a new account. Repeat the above steps to save multiple accounts.
 5. Use the account switching feature to select a saved account.
@@ -71,11 +83,11 @@ This feature records the login status of Genshin Impact accounts.
 You must enable the "Launch Parameters" feature first.
 :::
 
-When enabled, Snap Hutao will use the logged-in MiYouShe / HoYoLAB account to directly log in to the bound Genshin Impact account.
+When enabled, Snap Hutao Manjusaka will use the logged-in MiYouShe / HoYoLAB account to directly log in to the bound Genshin Impact account.
 
 ## Windows Platform HDR Support
 
-Genshin Impact's built-in HDR feature needs to be enabled through registry key values. Snap Hutao can enable this feature to enhance the visual experience.
+Genshin Impact's built-in HDR feature needs to be enabled through registry key values. Snap Hutao Manjusaka can enable this feature to enhance the visual experience.
 
 ## Launch Parameters
 
@@ -98,11 +110,25 @@ In the "Launch Parameters" feature, users can set the following advanced options
 
 ## Resource Download
 
-Snap Hutao's "Resource Download" tab provides real-time links to game installation packages and incremental packages for the mainland China server. Users can directly jump to the browser to download them.
+Snap Hutao Manjusaka's "Resource Download" tab provides real-time links to game installation packages and incremental packages for the mainland China server. Users can directly jump to the browser to download them.
 
 - Users need to place the downloaded files in the same directory as the game program and complete the update using the official launcher.
 
-## Injection Features
+## Custom Launch
+
+Custom launch allows you to conveniently run programs external to Snap Hutao Manjusaka with one click.
+
+- Launch custom programs
+  - You can quickly launch applications at specified paths within Snap Hutao Manjusaka, and you can download custom json files to expand more launch options. Please ensure the source and content of the json file are reliable to avoid unnecessary losses.
+  - The manifest data is located in the settings.json file, at the path `%USERPROFILE%\AppData\Local\Hutao\settings.json`.
+- Launch programs in the delayed launch list
+  - You can set programs in the delayed launch list, left-click to simultaneously execute programs in the list to start timing and execute on time, there is no order. If Snap Hutao Manjusaka is run with a non-administrator account, programs in the list may also start with non-administrator privileges. When encountering programs that forcibly require UAC privileges, the UAC popup may cause the delay time to be inaccurate.
+  - The list data will be saved in the userdate.db database.
+- Co-launch
+  - You can choose whether to trigger programs in the delayed launch list at the same time when launching the game or custom programs within Snap Hutao Manjusaka.
+- Custom launch does not support passing launch parameters.
+
+## ~~Injection Features~~
 
 ::: caution
 Improper use of injection features may cause damage to your device or game data. By enabling this, you agree to assume the relevant risks yourself.
@@ -110,16 +136,16 @@ Improper use of injection features may cause damage to your device or game data.
 
 ### Frame Rate Limit Unlock
 
-Using the [UnlockerIsland project](https://github.com/DGP-Studio/UnlockerIsland), the frame rate limit of Genshin Impact can be unlocked.
+Using the [~~UnlockerIsland project~~](https://github.com/DGP-Studio/UnlockerIsland), the frame rate limit of Genshin Impact can be unlocked.
 
 - **How to Use:**
-  1. Run Snap Hutao with administrator privileges.
+  1. Run Snap Hutao Manjusaka with administrator privileges.
   2. In the "Injection" module, set the target frame rate.
   3. Click the "Launch Game" button.
 
 #### Factors that may cause **frame rate limit unlock failure**
 
-1. Snap Hutao is not kept running in the background.
+1. Snap Hutao Manjusaka is not kept running in the background.
 2. The **Vertical Sync** option is not disabled in the game.
 3. There is a "Maximum Frame Rate" setting in the graphics card driver.
 4. There are similar "Power Saving Mode" options not disabled in the graphics card driver software.
@@ -138,23 +164,23 @@ Adjusts the display status of the team configuration progress bar. Only takes ef
 
 ### Duration Statistics
 
-Requires the installation and configuration of [Starward](https://github.com/Scighost/Starward). When enabled, Snap Hutao will call the Starward interface to record game duration.
+Requires the installation and configuration of [Starward](https://github.com/Scighost/Starward). When enabled, Snap Hutao Manjusaka will call the Starward interface to record game duration.
 
 ### Better GI Linking
 
-Requires the installation and configuration of [Better Genshin Impact](https://bgi.huiyadan.com/). When enabled, Snap Hutao will call its interface to enable automated features based on computer vision technology (OCR).
+Requires the installation and configuration of [Better Genshin Impact](https://bgi.huiyadan.com/). When enabled, Snap Hutao Manjusaka will call its interface to enable automated features based on computer vision technology (OCR).
 
 ### Discord Activity
 
-Requires the installation and configuration of [Discord](https://discord.com/). When enabled, Snap Hutao will generate real-time game status on your Discord profile card.
+Requires the installation and configuration of [Discord](https://discord.com/). When enabled, Snap Hutao Manjusaka will generate real-time game status on your Discord profile card.
 
 ## Frequently Asked Questions
 
-### How to Quickly Launch the Game Through Snap Hutao
+### How to Quickly Launch the Game Through Snap Hutao Manjusaka
 
 - Correctly configure the advanced launcher feature in the main program.
-- When the Snap Hutao main window is not closed, you can directly click "Homepage - Launch Game" to quickly launch.
-- Click the Snap Hutao icon in the lower right corner of the taskbar (usually automatically hidden by the system) and select "Launch Game."
+- When the Snap Hutao Manjusaka main window is not closed, you can directly click "Homepage - Launch Game" to quickly launch.
+- Click the Snap Hutao Manjusaka icon in the lower right corner of the taskbar (usually automatically hidden by the system) and select "Launch Game."
 
 ![quick-start](https://img.alicdn.com/imgextra/i3/1797064093/O1CN01Uu8QzN1g6du6MRp8h_!!1797064093.png_.webp)
 
@@ -175,15 +201,16 @@ If you encounter error code `31-4302`, you can solve this problem by enabling th
 ### How to Recover the Game Program After a Failed Server Switch
 
 ::: info Function Principle Explanation
-Snap Hutao only downloads the files required for server switching from the official Genshin Impact server, ensuring file safety and reliability. If frequent network problems cause the conversion to fail, the network connection to the target server may be poor. It is recommended to check your network connection or contact your network service provider.
+Snap Hutao Manjusaka only downloads the files required for server switching from the official Genshin Impact server, ensuring file safety and reliability. If frequent network problems cause the conversion to fail, the network connection to the target server may be poor. It is recommended to check your network connection or contact your network service provider.
 :::
 
-During server switching, if an unexpected exit or network problem causes the switch to fail, the game client may be damaged. Snap Hutao will prompt `Game path is incorrect, go to settings to change the game path`. At this point, the game's main program file may be lost. You can manually recover it by following these steps:
+During server switching, if an unexpected exit or network problem causes the switch to fail, the game client may be damaged. Snap Hutao Manjusaka will prompt `Game path is incorrect, go to settings to change the game path`. At this point, the game's main program file may be lost. You can manually recover it by following these steps:
 
 #### Manually Recover the Game Main Program
 
 1. **Locate the Backup Files**:
-    - Snap Hutao stores the backed-up game files before the switch in the `%userprofile%/Documents/Hutao/ServerCache` directory.
+    - Snap Hutao Manjusaka stores the backed-up game files before the switch in the `%userprofile%/Documents/Hutao/ServerCache` directory.
+    - For the new version Snap Hutao Manjusaka, go to the following path: `%USERPROFILE%\AppData\Local\Hutao`. If you are looking for it manually, the AppData folder is hidden by default, so make sure to enable the option to show hidden folders if you cannot find it.
     - The backup files include: `GenshinImpact.exe` and `GenshinImpact_Data` (for the global server), or `YuanShen.exe` and `YuanShen_Data` (for the CN server).
 2. **Check the Game Directory**:
     - The global server directory should contain `GenshinImpact.exe` and `GenshinImpact_Data`.
@@ -192,7 +219,7 @@ During server switching, if an unexpected exit or network problem causes the swi
     - Copy the files from the backup directory to the game's main program directory, overwriting the existing files.
     - If you need to switch server versions, rename the relevant files: for example, rename `YuanShen_Data` to `GenshinImpact_Data`.
 4. **Launch the Game**:
-    - Re-enter the "Launch Game" interface in Snap Hutao and launch the game.
+    - Re-enter the "Launch Game" interface in Snap Hutao Manjusaka and launch the game.
     - If the error message disappears, you can continue to select the target server and complete the switch.
 
 ### How to Restore the `config.ini` Configuration File
@@ -205,7 +232,7 @@ Modify the `game_version` parameter according to the actual game version.
 
 #### Example Configuration File Content
 
-::: tabs#game_config_samples
+::: tabs #game_config_samples
 == CN Server Official
 
 ```ini

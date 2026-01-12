@@ -1,0 +1,45 @@
+name: 文档勘误
+description: 报告文档中的错误或需要修正的地方
+title: "[Doc Correction]: 在这里填写一个合适的标题"
+labels: ["Doc Correction"]
+assignees:
+  - Masterain98
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请按下方的要求填写完整的问题表单。
+
+  - type: textarea
+    id: error-description
+    attributes:
+      label: 错误描述
+      description: 详细描述文档中的错误或需要修正的地方
+    validations:
+      required: true
+
+  - type: input
+    id: doc-url
+    attributes:
+      label: 文档链接
+      description: 包含错误的文档链接
+      placeholder: https://example.com/docs/page
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: 建议的修正
+      description: 提供你建议的修正内容或方法
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist-final
+    attributes:
+      label: 最终检查
+      description: 确认你在正确的地方发起议题
+      options:
+        - label: 我确认这一议题是与**文档**强烈相关的，而不是与 Snap Hutao Manjusaka 客户端或服务端应用程序相关的。
+          required: true

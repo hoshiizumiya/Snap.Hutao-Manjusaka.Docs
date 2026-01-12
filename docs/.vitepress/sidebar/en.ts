@@ -32,7 +32,7 @@ export const enSidebar = {
         },
         {
           icon: "iconfont icon-set",
-          text: "Snap Hutao Features",
+          text: "Snap Hutao Manjusaka Features",
           children: [
             "setup",
             "feedback-center",

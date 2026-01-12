@@ -4,14 +4,14 @@ category: [Feature, Tutorial]
 order: 3
 tag: [feedback, issue]
 comment: false
-description: The built-in Feedback Center in Snap Hutao includes important links related to the Snap Hutao project and incorporates a document search engine, helping users quickly resolve common issues.
+description: The built-in Feedback Center in Snap Hutao Manjusaka includes important links related to the Snap Hutao Manjusaka project and incorporates a document search engine, helping users quickly resolve common issues.
 ---
 
 # Feedback Center
 
 ![dashboard](https://img.alicdn.com/imgextra/i4/1797064093/O1CN01yGGrhz1g6e0u3q5L6_!!1797064093.png_.webp)
 
-The Feedback Center is a feature page provided by the Snap Hutao development team to help users solve common problems. This page is laid out in a left-right structure.
+The Feedback Center is a feature page provided by the Snap Hutao Manjusaka development team to help users solve common problems. This page is laid out in a left-right structure.
 
 ## Left Side Functionality: Document Search
 
@@ -27,15 +27,15 @@ The right side of the page includes the following functional modules:
   - **Device Network Information**: Includes IP address and network status.
     - Due to the different implementation methods of proxy software, some proxies may not be detected. Therefore, it is normal for "No proxy" to be displayed even when "Proxy enabled" is indicated.
     - The Alpha version always displays the location as Oversea, which is expected behavior.
-  - **Webview2 Runtime Version**: Displays the version number of Webview2 on which Snap Hutao relies.
+  - **Webview2 Runtime Version**: Displays the version number of Webview2 on which Snap Hutao Manjusaka relies.
 
 - **Second Section: Common Links**
 
   - **GitHub Issues**: Quickly jump to the GitHub issue tracking page, making it easy for users to submit issues or view existing solutions.
-  - Access the availability monitoring page of Snap Hutao services to understand service status.
+  - Access the availability monitoring page of Snap Hutao Manjusaka services to understand service status.
 
 - **Third Section: Function Guide**
-  - Provides document links to the main functions of Snap Hutao, including "Home", "Launch Game", "Wish Records", "Achievement Management", etc., making it easy for users to quickly locate documentation entry points.
+  - Provides document links to the main functions of Snap Hutao Manjusaka, including "Home", "Launch Game", "Wish Records", "Achievement Management", etc., making it easy for users to quickly locate documentation entry points.
 
 ## Interface Optimization and Precautions
 

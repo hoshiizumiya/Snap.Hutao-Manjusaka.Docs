@@ -5,7 +5,7 @@ comment: false
 editLink: false
 icon: iconfont icon-license
 order: 4
-description: Snap Hutao 的用戶使用協議和法律聲明。
+description: Snap Hutao Manjusaka 的用戶使用協議和法律聲明。
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statements/tos.html
 ---
 
@@ -18,6 +18,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statemen
   - 如您未滿 18 週歲，請在法定監護人陪同下仔細閱讀並充分理解本協議，並徵得法定監護人的同意後使用本團隊所開發的任意項目。
   - 若您已安裝、使用或在開發時引用本團隊所開發的任意項目，表示您已主動閱讀（已閱讀完畢）並完全同意本使用協議所列明的條款，即已充分理解本協議並承諾作為本協議的一方當事人接受協議、法律聲明、隱私政策以及與本團隊所開發的任意項目相關的規則、規範、聲明、公告、通知等內容的約束。
   - 此《用戶使用協議》是由用戶（以下或稱“您”）與本團隊所開發的任意項目所訂立的用戶使用協議和法律聲明，本協議對用戶和本團隊均具有法律效力。
+  - Millennium Science Technology Research Development Institute 和 DGP-Studio 保留最終解釋權。
 
 ## 項目性質、服務以及有關責任與義務的界定
 
@@ -25,7 +26,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/statemen
 
 - 二、本軟件以“學習開發知識”、“積累開發經驗”為目的進行開發，所有項目所提供的功能，均“開源”、“非經營性質”，如用戶對本團隊所開發的任意項目的安全性表示不滿，請立即卸載/刪除/停用，如您仍在正常使用，則表示您認可本團隊所開發的任意項目的安全性。
 
-- 三、一切因使用本團隊所開發的任意項目的內容而導致的“任何意外損失（包括但不限於：軟件、硬件、財產以及虛擬物品等）”、“合約毀壞”、“誹謗”、“版權或知識產權侵犯”及其所造成的損失與責任，均為使用者自身對於網絡公開的開源軟件的使用過程中自身發生的使用行為所引致的“損失與責任”，基於全部作品在其開放源代碼的位置（即 [Github](https://github.com/DGP-Studio) ）中所聲明的 [MIT license](https://github.com/DGP-Studio/Snap.Hutao/blob/main/LICENSE) 以及本聲明所約定的內容，應當認定前述的“損失與責任”與全部項目的有關開發者無責任關聯。
+- 三、一切因使用本團隊所開發的任意項目的內容而導致的“任何意外損失（包括但不限於：軟件、硬件、財產以及虛擬物品等）”、“合約毀壞”、“誹謗”、“版權或知識產權侵犯”及其所造成的損失與責任，均為使用者自身對於網絡公開的開源軟件的使用過程中自身發生的使用行為所引致的“損失與責任”，基於全部作品在其開放源代碼的位置（即 [Github](https://github.com/DGP-Studio) ）中所聲明的 [~~MIT license~~](https://github.com/DGP-Studio/Snap.Hutao/blob/main/LICENSE) 以及本聲明所約定的內容，應當認定前述的“損失與責任”與全部項目的有關開發者無責任關聯。
 - 四、用戶使用本團隊所開發的任意項目期間，本團隊**不做**任何不發生如下情況的保證：
 
   - 因網絡狀況、通訊線路等任何技術原因而導致用戶不能正常使用或更新；

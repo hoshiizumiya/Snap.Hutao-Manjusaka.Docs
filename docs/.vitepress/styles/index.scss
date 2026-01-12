@@ -170,7 +170,19 @@ html[data-theme="dark"] .VPHero .VPImage {
   --vp-custom-block-warning-border: var(--vp-c-warning-1);
   --vp-custom-block-important-border: var(--vp-c-purple-1);
   --vp-custom-block-danger-border: var(--vp-c-danger-1);
+  --vp-c-caution-1: var(--vp-c-orange-1);
+  --vp-c-caution-2: var(--vp-c-orange-2);
+  --vp-c-caution-3: var(--vp-c-orange-3);
+  --vp-c-caution-soft: var(--vp-c-orange-soft);
   --vp-custom-block-caution-border: var(--vp-c-caution-1);
+  --vp-custom-block-caution-bg: var(--vp-c-caution-soft);
+  --vp-custom-block-caution-code-bg: var(--vp-c-caution-soft);
+
+  /* 确保文本/背景变量存在，避免被主题默认覆盖 */
+  --vp-custom-block-important-text: var(--vp-c-text-1);
+  --vp-custom-block-important-bg: var(--vp-c-important-soft);
+  --vp-custom-block-important-code-bg: var(--vp-c-important-soft);
+  --vp-custom-block-caution-text: var(--vp-c-text-1);
 }
 
 /* info容器:背景色、左侧 */
@@ -183,9 +195,95 @@ html[data-theme="dark"] .VPHero .VPImage {
 
   @apply border-l-[5px];
 
-  /* svg图 */
+  /* svg图: 保持 ::before 用于图标；使用 ::after 注入本地化标题文本（根据 html[lang]） */
   [class*='custom-block-title']::before {
     content: '';
+  }
+
+  /* 本地化标题文本（::after）——根据页面 html[lang] 注入对应语言 */
+  .custom-block .custom-block-title::after {
+    margin-left: 0.5rem;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  /* English */
+  html[lang^="en"] .custom-block.caution .custom-block-title::after {
+    content: "Caution";
+  }
+
+  html[lang^="en"] .custom-block.important .custom-block-title::after {
+    content: "Important";
+  }
+
+  html[lang^="en"] .custom-block.tip .custom-block-title::after {
+    content: "Tip";
+  }
+
+  html[lang^="en"] .custom-block.warning .custom-block-title::after {
+    content: "Warning";
+  }
+
+  html[lang^="en"] .custom-block.danger .custom-block-title::after {
+    content: "Danger";
+  }
+
+  /* 简体中文 */
+  html[lang="zh-CN"] .custom-block.caution .custom-block-title::after {
+    content: "注意";
+  }
+
+  html[lang="zh-CN"] .custom-block.important .custom-block-title::after {
+    content: "重要";
+  }
+
+  html[lang="zh-CN"] .custom-block.tip .custom-block-title::after {
+    content: "提示";
+  }
+
+  html[lang="zh-CN"] .custom-block.warning .custom-block-title::after {
+    content: "警告";
+  }
+
+  html[lang="zh-CN"] .custom-block.danger .custom-block-title::after {
+    content: "危险";
+  }
+
+  /* 繁體中文 */
+  html[lang="zh-TW"] .custom-block.caution .custom-block-title::after {
+    content: "注意";
+  }
+
+  html[lang="zh-TW"] .custom-block.important .custom-block-title::after {
+    content: "重要";
+  }
+
+  /* 日本語 */
+  html[lang="ja-JP"] .custom-block.caution .custom-block-title::after {
+    content: "注意";
+  }
+
+  html[lang="ja-JP"] .custom-block.important .custom-block-title::after {
+    content: "重要";
+  }
+
+  /* Русский */
+  html[lang="ru-RU"] .custom-block.caution .custom-block-title::after {
+    content: "Внимание";
+  }
+
+  html[lang="ru-RU"] .custom-block.important .custom-block-title::after {
+    content: "Важно";
+  }
+
+  /* Bahasa Indonesia */
+  html[lang="id-ID"] .custom-block.caution .custom-block-title::after {
+    content: "Perhatian";
+  }
+
+  html[lang="id-ID"] .custom-block.important .custom-block-title::after {
+    content: "Penting";
   }
 
   /* 信息容器:背景色、左侧 */
@@ -216,8 +314,26 @@ html[data-theme="dark"] .VPHero .VPImage {
 
   /* 重要容器:背景色、左侧 */
   &.important {
+    border-color: var(--vp-custom-block-important-border);
+    color: var(--vp-custom-block-important-text);
+    background-color: var(--vp-custom-block-important-bg);
+
     [class*='custom-block-title']::before {
       background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'%3E%3Cpath fill='%23a26ef4' d='M640 832a128 128 0 0 1-256 0zm192-64H134.4a38.4 38.4 0 0 1 0-76.8H192V448c0-154.88 110.08-284.16 256.32-313.6a64 64 0 1 1 127.36 0A320.128 320.128 0 0 1 832 448v243.2h57.6a38.4 38.4 0 0 1 0 76.8z'%3E%3C/path%3E%3C/svg%3E");
+    }
+
+    a,
+    code {
+      color: var(--vp-c-important-1);
+    }
+
+    a:hover,
+    a:hover>code {
+      color: var(--vp-c-important-2);
+    }
+
+    code {
+      background-color: var(--vp-custom-block-important-code-bg);
     }
   }
 
@@ -229,10 +345,34 @@ html[data-theme="dark"] .VPHero .VPImage {
   }
 
   /* 危险容器:背景色、左侧 */
-  &.danger,
-  &.caution {
+  &.danger {
     [class*='custom-block-title']::before {
       background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'%3E%3Cpath fill='%23ff4d4f' d='M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896m0 393.664L407.936 353.6a38.4 38.4 0 1 0-54.336 54.336L457.664 512 353.6 616.064a38.4 38.4 0 1 0 54.336 54.336L512 566.336 616.064 670.4a38.4 38.4 0 1 0 54.336-54.336L566.336 512 670.4 407.936a38.4 38.4 0 1 0-54.336-54.336z'%3E%3C/path%3E%3C/svg%3E");
+    }
+  }
+
+  /* 注意容器:背景色、左侧 */
+  &.caution {
+    border-color: var(--vp-custom-block-caution-border);
+    color: var(--vp-custom-block-caution-text);
+    background-color: var(--vp-custom-block-caution-bg);
+
+    [class*='custom-block-title']::before {
+      background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'%3E%3Cpath fill='%23fa8c16' d='M512 64a448 448 0 1 1 0 896.064A448 448 0 0 1 512 64m67.2 275.072c33.28 0 60.288-23.104 60.288-57.344s-27.072-57.344-60.288-57.344c-33.28 0-60.16 23.104-60.16 57.344s26.88 57.344 60.16 57.344M590.912 699.2c0-6.848 2.368-24.64 1.024-34.752l-52.608 60.544c-10.88 11.456-24.512 19.392-30.912 17.28a12.992 12.992 0 0 1-8.256-14.72l87.68-276.992c7.168-35.136-12.544-67.2-54.336-71.296-44.096 0-108.992 44.736-148.48 101.504 0 6.784-1.28 23.68.064 33.792l52.544-60.608c10.88-11.328 23.552-19.328 29.952-17.152a12.8 12.8 0 0 1 7.808 16.128L388.48 728.576c-10.048 32.256 8.96 63.872 55.04 71.04 67.84 0 107.904-43.648 147.456-100.416z'%3E%3C/path%3E%3C/svg%3E");
+    }
+
+    a,
+    code {
+      color: var(--vp-c-caution-1);
+    }
+
+    a:hover,
+    a:hover>code {
+      color: var(--vp-c-caution-2);
+    }
+
+    code {
+      background-color: var(--vp-custom-block-caution-code-bg);
     }
   }
 

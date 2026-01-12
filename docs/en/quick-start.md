@@ -5,18 +5,18 @@ category: [Functionality, Tutorial]
 comment: false
 icon: iconfont icon-launch
 order: 5
-description: Follow this quick start guide to quickly set up Snap Hutao.
+description: Follow this quick start guide to quickly set up Snap Hutao Manjusaka.
 banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png
 ---
 
 # Quick Start
 
-Follow this quick start guide to quickly set up Snap Hutao.
+Follow this quick start guide to quickly set up Snap Hutao Manjusaka.
 
 ## <HopeIcon icon="iconfont icon-windows" size="1.7rem" color="rgb(0, 168, 232)" /> Minimum System Requirements
 
 | Requirement                      | Specification                                                         |
-|----------------------------------|-----------------------------------------------------------------------|
+| -------------------------------- | --------------------------------------------------------------------- |
 | **Minimum Supported OS Version** | Windows 10 Build 19045.5371 (22H2)<br/> Windows 11 Build 22621 (22H2) |
 | **Recommended OS Version**       | Windows 11 Build 26100 (24H2) or later                                |
 | **Required Components**          | Windows Update, App Installer                                         |
@@ -29,14 +29,14 @@ Follow this quick start guide to quickly set up Snap Hutao.
 3. **Lightweight or modified versions of Windows; issues on non-official Microsoft full versions will not be handled**
 4. Issues on Windows Insider Preview builds will not be addressed
 
-> **The January 2025 Windows update [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) is a mandatory requirement for running Snap Hutao on Windows 10. It is included in Windows 10 Build 19045.5371 and later.**
+> **The January 2025 Windows update [KB5049981](https://support.microsoft.com/en-us/topic/january-14-2025-kb5049981-os-builds-19044-5371-and-19045-5371-12f3788f-6e7d-4524-8ab3-27d1666e0510) is a mandatory requirement for running Snap Hutao Manjusaka on Windows 10. It is included in Windows 10 Build 19045.5371 and later.**
 
 
-## <HopeIcon icon="iconfont icon-cache" size="1.8rem" color="rgb(128, 161, 255)" /> Download Snap Hutao
+## <HopeIcon icon="iconfont icon-cache" size="1.8rem" color="rgb(128, 161, 255)" /> Download Snap Hutao Manjusaka
 
 ### New Installation
 
-You can install Snap Hutao using the **MSIX installation package** or the **Snap.Hutao.Deployment installer**. You can obtain the installation package from the following sources.
+You can install Snap Hutao Manjusaka using the **MSIX installation package** or the **Snap.Hutao.Deployment installer**. You can obtain the installation package from the following sources.
 
 ::: tabs
 
@@ -47,7 +47,7 @@ Snap.Hutao.Deployment is a one-click installer made by the development team that
 <div class="vp-card-container">
 
 <VPCard
-title="Snap Hutao Automatic Detection"
+title="Snap Hutao Manjusaka Automatic Detection"
 desc="Automatically determines the best download source"
 logo="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ybZ68o1g6e7nwgiKI_!!1797064093.png_.webp"
 link="https://api.snapgenshin.com/patch/hutao-deployment/download"
@@ -56,7 +56,7 @@ background="rgba(253, 233, 233, 0.45)"
 
 <VPCard
 title="GitHub"
-desc="Snap Hutao Deployment is also an open-source project"
+desc="Snap Hutao Manjusaka Deployment is also an open-source project"
 logo="/images/202312/github-mark.svg"
 link="https://github.com/DGP-Studio/Snap.Hutao.Deployment/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
@@ -69,11 +69,11 @@ background="rgba(155, 233, 168, 0.15)"
 <div class="vp-card-container">
   <div class="hint-container warning">
     <p class="hint-container-title">Attention</p>
-    <p>We recommend using Snap.Hutao.Deployment to install Snap Hutao. Any issues that occur when installing with the MSIX installation package will not be actively addressed.</p>
+    <p>We recommend using Snap.Hutao.Deployment to install Snap Hutao Manjusaka. Any issues that occur when installing with the MSIX installation package will not be actively addressed.</p>
   </div>
 
 <VPCard
-title="Snap Hutao Automatic Detection"
+title="Snap Hutao Manjusaka Automatic Detection"
 desc="Automatically determines the best download source"
 logo="https://img.alicdn.com/imgextra/i1/1797064093/O1CN01ybZ68o1g6e7nwgiKI_!!1797064093.png_.webp"
 link="https://api.snapgenshin.com/patch/hutao/download"
@@ -81,7 +81,7 @@ background="rgba(253, 233, 233, 0.45)"
 />
 <VPCard
 title="GitHub"
-desc="All versions of Snap Hutao are released in the main repository"
+desc="All versions of Snap Hutao Manjusaka are released in the main repository"
 logo="/images/202312/github-mark.svg"
 link="https://github.com/DGP-Studio/Snap.Hutao/releases/latest"
 background="rgba(155, 233, 168, 0.15)"
@@ -93,29 +93,29 @@ background="rgba(155, 233, 168, 0.15)"
 
 ---
 
-If you are interested in making the Snap Hutao project better through your own efforts, you are welcome to [join us](development/join.md)!
+If you are interested in making the Snap Hutao Manjusaka project better through your own efforts, you are welcome to [join us](development/join.md)!
 
-### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Update Snap Hutao
+### <HopeIcon icon="iconfont icon-update" size="1.5rem" color="rgb(255, 185, 0)" /> Update Snap Hutao Manjusaka
 
 Unless otherwise stated, you can update by running [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) or installing the latest MSIX installation package.
 
-Since version 1.9.0, Snap Hutao has a built-in upgrade notification function to remind you to get the update package. If the update fails, you can try using [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) to overwrite the installation to solve the problem.
+Since version 1.9.0, Snap Hutao Manjusaka has a built-in upgrade notification function to remind you to get the update package. If the update fails, you can try using [Snap.Hutao.Deployment](https://api.snapgenshin.com/patch/hutao-deployment/download) to overwrite the installation to solve the problem.
 
 - Data will not be affected as long as the data directory is not manually deleted.
 
 ## <HopeIcon icon="iconfont icon-expansion" size="1.7rem" color="rgb(7, 163, 161)" /> Install Optional Components
 
-Through optional components, Snap Hutao can implement some functions more efficiently. Although they are not mandatory components, they can significantly improve the user experience.
+Through optional components, Snap Hutao Manjusaka can implement some functions more efficiently. Although they are not mandatory components, they can significantly improve the user experience.
 
 ### <img src="/images/202312/MSEdge.webp" alt="Edge" width="20" height="20"> WebView2 Runtime
 
-The WebView2 Runtime is provided by Microsoft and allows Snap Hutao to embed low-overhead browser components. This component is used to implement the MiYouShe account WebView2 login function.
+The WebView2 Runtime is provided by Microsoft and allows Snap Hutao Manjusaka to embed low-overhead browser components. This component is used to implement the MiYouShe account WebView2 login function.
 
 You can find the `Evergreen Standalone Installer` at the bottom of the [Microsoft official website](https://developer.microsoft.com/en-us/microsoft-edge/webview2/). Select `x64` to download and install.
 
 ### <img src="/images/202409/Microsoft-logo.svg" alt="Microsoft" width="20" height="20"> Segoe Fluent Icons Font
 
-This font is provided by Microsoft and optimizes the icon display effect of Snap Hutao. Missing this font may cause some icons to not display correctly.
+This font is provided by Microsoft and optimizes the icon display effect of Snap Hutao Manjusaka. Missing this font may cause some icons to not display correctly.
 
 Click [this link](https://aka.ms/SegoeFluentIcons) to download the font ZIP file. After unzipping, right-click to install the font to the system.
 
@@ -129,7 +129,7 @@ Click [this link](https://aka.ms/vs/17/release/vc_redist.x64.exe) to download th
 
 On the main interface, click the account panel in the lower left corner between the document button and the settings button. In the pop-up MiHoYo account panel, select a login method according to the account type.
 
-Regardless of the method used, please ensure that the account has been initialized through the official application. Otherwise, Snap Hutao will not be able to obtain the account information correctly.
+Regardless of the method used, please ensure that the account has been initialized through the official application. Otherwise, Snap Hutao Manjusaka will not be able to obtain the account information correctly.
 
 :::: tabs
 
@@ -150,7 +150,7 @@ Please confirm that the MiYouShe account is bound to the Genshin Impact domestic
 
 1.  Click the "QR Code Login" button and wait for the QR code to load.
 2.  Use the MiYouShe App to scan the QR code and confirm the login.
-3.  Wait a moment, and Snap Hutao will add the account.
+3.  Wait a moment, and Snap Hutao Manjusaka will add the account.
 
 == HoYoLAB Password Login
 
@@ -193,7 +193,7 @@ Log in by manually entering SToken to submit the Cookie.
 
 ### Can the Installation Problem Be Solved by Repairing System Components
 
-You can try to repair missing components based on error messages, but the Snap Hutao development team will not provide support.
+You can try to repair missing components based on error messages, but the Snap Hutao Manjusaka development team will not provide support.
 
 ---
 

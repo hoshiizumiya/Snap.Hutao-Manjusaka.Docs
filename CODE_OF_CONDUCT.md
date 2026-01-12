@@ -1,6 +1,6 @@
 # Contributor Code of Conduct
 
-At Snap Hutao, we are dedicated to building and maintaining a safe, welcoming, and inclusive community. To ensure a positive and respectful experience for everyone, we have established this Code of Conduct.
+At Snap Hutao Manjusaka, we are dedicated to building and maintaining a safe, welcoming, and inclusive community. To ensure a positive and respectful experience for everyone, we have established this Code of Conduct.
 
 This code applies to all project spaces, including GitHub repositories, community channels (like Discord and QQ), and any other forums managed by the project.
 

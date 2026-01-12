@@ -4,7 +4,7 @@ category: [Announcement, Project, Features]
 comment: false
 icon: iconfont icon-workingDirectory
 order: 6
-description: Snap Hutao is an open-source program project on GitHub, and we highly appreciate collaborations from the community to keep this project dynamic.
+description: Snap Hutao Manjusaka is an open-source program project on GitHub, and we highly appreciate collaborations from the community to keep this project dynamic.
 banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!1797064093.png
 ---
 
@@ -15,13 +15,13 @@ banner: https://img.alicdn.com/imgextra/i1/1797064093/O1CN01mpzxPR1g6e22IjFMh_!!
 <a href="https://trendshift.io/repositories/2009" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2009" alt="DGP-Studio%2FSnap.Hutao | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 :::
 
-Snap Hutao is an open-source Genshin Impact toolkit under the MIT license, specifically designed for the modern Windows platform to enhance the gaming experience for desktop players. By integrating official resources with new features developed by the team, it offers a comprehensive and practical set of tools without relying on any mobile devices. Furthermore, it strictly adheres to non-destructive principles, ensuring the tool's safety by not modifying the game client.
+Snap Hutao Manjusaka is an open-source Genshin Impact toolkit under the MIT license, specifically designed for the modern Windows platform to enhance the gaming experience for desktop players. By integrating official resources with new features developed by the team, it offers a comprehensive and practical set of tools without relying on any mobile devices. Furthermore, it strictly adheres to non-destructive principles, ensuring the tool's safety by not modifying the game client.
 
-The Snap Hutao project is packaged using the MSIX format. MSIX is a native Windows application packaging format that provides streamlined software installation, updates, and uninstallation. With its sandboxing technology, MSIX-packaged applications operate in isolated environments, preventing direct modifications to system resources and significantly improving system security and stability. Additionally, the MSIX format ensures no residual files or registry entries remain after uninstallation, maintaining system cleanliness. These advantages make MSIX a powerful tool for both developers and users for managing software, providing a smooth, secure, and clean software experience.
+The Snap Hutao Manjusaka project is packaged using the MSIX format. MSIX is a native Windows application packaging format that provides streamlined software installation, updates, and uninstallation. With its sandboxing technology, MSIX-packaged applications operate in isolated environments, preventing direct modifications to system resources and significantly improving system security and stability. Additionally, the MSIX format ensures no residual files or registry entries remain after uninstallation, maintaining system cleanliness. These advantages make MSIX a powerful tool for both developers and users for managing software, providing a smooth, secure, and clean software experience.
 
-## Genshin Impact Desktop Issues Solved by Snap Hutao
+## Genshin Impact Desktop Issues Solved by Snap Hutao Manjusaka
 
-|           Feature            | Mobile                                | Desktop                             | Snap Hutao Solution                                                                        |
+|           Feature            | Mobile                                | Desktop                             | Snap Hutao Manjusaka Solution                                                              |
 | :--------------------------: | ------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------ |
 |    **Unlock Frame Rate**     | iOS/iPadOS officially supports 120FPS | Limited to 60FPS                    | [Advanced Launcher - Injection Module](features/game-launcher.md#game-frame-rate-settings) |
 |   **Game Account Switch**    | Logged-in accounts are saved          | Accounts are not saved after logout | [Advanced Launcher - Account Switching](features/game-launcher.md#account-saving)          |
@@ -38,7 +38,7 @@ The Snap Hutao project is packaged using the MSIX format. MSIX is a native Windo
 
 - [GitHub Repository](https://github.com/DGP-Studio/Snap.Hutao)
 - [Crowdin Localization](https://translate.hut.ao/)
-- [Snap Hutao User Community](community.md)
+- [Snap Hutao Manjusaka User Community](community.md)
 
 ## Full Feature List
 
@@ -71,7 +71,7 @@ The Snap Hutao project is packaged using the MSIX format. MSIX is a native Windo
 - [Spiral Abyss/Imaginarium Theater](features/hutao-API.md)
   - Details of each phase's monsters and Abyssal Moon Blessing
   - Sync detailed battle data of the current Spiral Abyss
-  - Snap Hutao Abyss Database
+  - Snap Hutao Manjusaka Abyss Database
     - Character Usage Rate
     - Character Appearance Rate
     - Team Appearance Statistics
@@ -83,6 +83,6 @@ The Snap Hutao project is packaged using the MSIX format. MSIX is a native Windo
   - [Character Data](features/character-wiki.md)
   - [Weapon Data](features/weapon-wiki.md)
   - [Monster Data](features/monster-wiki.md)
-- [Snap Hutao Account System](features/hutao-settings.md#snap-hutao-account)
+- [Snap Hutao Manjusaka Account System](features/hutao-settings.md#snap-hutao-account)
   - Wish data backup
   - Wish statistics prediction

@@ -4,12 +4,12 @@ category: [Feature, Tutorial]
 tag: [Achievement]
 order: 6
 comment: false
-description: Snap Hutao provides Genshin Impact achievement management, allowing you to browse and manage the status of all achievements. Use the powerful filtering system to easily search for specific achievements.
+description: Snap Hutao Manjusaka provides Genshin Impact achievement management, allowing you to browse and manage the status of all achievements. Use the powerful filtering system to easily search for specific achievements.
 ---
 
 # Achievement Management
 
-Snap Hutao offers comprehensive Genshin Impact achievement management, allowing you to browse and manage the status of all achievements. Users can quickly locate achievements through various filtering methods, optimizing the management experience.
+Snap Hutao Manjusaka offers comprehensive Genshin Impact achievement management, allowing you to browse and manage the status of all achievements. Users can quickly locate achievements through various filtering methods, optimizing the management experience.
 
 <!-- more -->
 
@@ -19,7 +19,7 @@ When using it for the first time, follow the prompts and click the "Create New A
 
 ## Achievement Filtering
 
-Snap Hutao supports various flexible achievement filtering methods:
+Snap Hutao Manjusaka supports various flexible achievement filtering methods:
 
 - Click the hidden menu in the upper right corner and select the `Only Commission Achievements` option to filter out hidden achievements that need to be completed through daily commissions.
 - Enter a version number (e.g., `5.3`) in the search box to find achievements from the corresponding version.
@@ -29,13 +29,13 @@ Snap Hutao supports various flexible achievement filtering methods:
 
 ## Achievement Import <Badge text="UIAF" type="info" />
 
-Snap Hutao supports importing achievement data through the [UIAF Uniform Interchangeable Achievement Format](https://uigf.org/en/standards/uiaf.html).
+Snap Hutao Manjusaka supports importing achievement data through the [UIAF Uniform Interchangeable Achievement Format](https://uigf.org/en/standards/uiaf.html).
 
 - Users can import data from **third-party achievement export tools** via URL protocol or clipboard.
 - Click the "Import" button in the hidden menu in the upper right corner of the achievement page, and select "Import from UIAF File" to load achievement data in the UIAF data format.
 
 ::: tip
-If you have multiple versions of Snap Hutao installed (such as the Alpha version and the official version), you need to change the default application for the `URL:hutao` link. You can find the `URL:hutao` entry in "Windows Settings - Apps - Default apps - Choose default apps by protocol" and click the icon to change it.
+If you have multiple versions of Snap Hutao Manjusaka installed (such as the Alpha version and the official version), you need to change the default application for the `URL:hutao` link. You can find the `URL:hutao` entry in "Windows Settings - Apps - Default apps - Choose default apps by protocol" and click the icon to change it.
 :::
 
 ## Achievement Export <Badge text="UIAF" type="info" />

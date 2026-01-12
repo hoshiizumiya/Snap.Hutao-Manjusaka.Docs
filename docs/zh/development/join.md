@@ -8,7 +8,7 @@ tag:
   - 社区
 icon: iconfont icon-group
 order: 1
-description: 如果你有本页所述技术之一且有兴趣加入 Snap Hutao 开发团队以完善项目，并接触到更多的原神开源项目，欢迎加入我们！
+description: 如果你有本页所述技术之一且有兴趣加入 Snap Hutao Manjusaka 开发团队以完善项目，并接触到更多的原神开源项目，欢迎加入我们！
 banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/development/join.html
 ---
 
@@ -80,7 +80,7 @@ text: "加入开发者交流群",
 link:"",
 },
 {
-text: "Snap Hutao Manjusaka文档",
+text: "Snap Hutao Manjusaka 文档",
 link: "https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs",
 type: "default",
 },

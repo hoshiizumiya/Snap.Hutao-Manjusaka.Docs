@@ -19,7 +19,7 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 
 通過申請胡桃 API 的開發者，除了獲得數據庫訪問權限外，還將額外獲得 Snap Hutao 工具箱內胡桃雲功能的完整權限作為福利。
 
-開發者可以通過[胡桃 API 開放平臺](https://homa.snapgenshin.com/)提交申請，獲取開發者許可證。
+開發者可以通過[~~胡桃 API 開放平臺~~](https://homa.snapgenshin.com/)提交申請，獲取開發者許可證。
 
 ## UIGF 可交換數據記錄
 

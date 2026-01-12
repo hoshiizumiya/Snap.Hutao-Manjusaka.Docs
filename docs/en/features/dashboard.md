@@ -4,18 +4,18 @@ category: [Feature, Tutorial]
 order: 2
 tag: [Dashboard, Announcement]
 comment: false
-description: Snap Hutao's home dashboard provides features such as account overview, real-time game announcements, and event countdowns, helping users efficiently manage game information.
+description: Snap Hutao Manjusaka's home dashboard provides features such as account overview, real-time game announcements, and event countdowns, helping users efficiently manage game information.
 ---
 
 # Home Dashboard
 
 ![Dashboard](https://img.alicdn.com/imgextra/i2/1797064093/O1CN01Nlz8ca1g6e0tyxrBa_!!1797064093.png_.webp)
 
-When you launch Snap Hutao, it will default to the home dashboard. The dashboard is divided into two parts: the upper part displays a summary of personal game data in the form of cards, and the lower part displays recent game announcements and event countdowns. The homepage cards can be closed or re-enabled in the settings.
+When you launch Snap Hutao Manjusaka, it will default to the home dashboard. The dashboard is divided into two parts: the upper part displays a summary of personal game data in the form of cards, and the lower part displays recent game announcements and event countdowns. The homepage cards can be closed or re-enabled in the settings.
 
 ## Feature Overview
 
-- **Snap Hutao Announcements**
+- **Snap Hutao Manjusaka Announcements**
 
   - If the development team releases a new announcement, it will be displayed at the top of the dashboard. Most announcements can be closed.
 

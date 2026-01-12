@@ -11,7 +11,78 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.17.1 <Badge text="latest" type="tip" />
+## V2.1.0 Release<Badge text="Latest" type="tip" />
+
+- **[🎉New]** Added open source information
+- **[✨Optimization]** Optimized the layout of the settings page
+- **[✨Optimization]** Optimized the logic and display for obtaining program names
+- **[✨Optimization]** Optimized the UI prompt effects in the download dialog
+- **[✨Optimization]** Optimized some interface languages
+- **[✨Optimization]** Refactored auto check-in logic, now supports multi-account auto check-in and cross-day check-in after manual account switching
+- **[✨Optimization]** Auto check-in should now not repeat check-ins or be out of sync with the UI
+- **[✨Optimization]** Refactored auto-start logic, now auto-start will always synchronize with the administrator run status
+- **[✨Optimization]** Optimized shortcut creation logic, removed version information attached to shortcuts, added icons corresponding to options
+- **[🔨Fix]** Fixed download dialog test path
+- **[🔨Fix]** Fixed homepage game launch operation not triggering delayed launch
+- **[🔨Fix]** Fixed custom launch - delayed launch DataTable column drag causing crash
+- **[🔨Fix]** Fixed occasional restart failure
+- **[🔨Fix]** Fixed LZMA/LZMA2 format decompression error
+- **[❓Known Issues]** Unable to use achievement import function
+- **[❓Known Issues]** Injection feature temporarily unavailable
+- **[❓Known Issues]** IP detection service not online
+
+## V2.0.3.0 Release
+
+- **[✨Optimization]** Optimized the UI of the custom startup interface
+- **[🎉New]** The function of launching delayed startup programs has been launched, making it easier to start delayed startup programs now
+- **[✨Optimization]** Optimized and improved multi-language support in multiple areas
+- **[🔨Fix]** Improved stability in certain scenarios
+- **[🔨Fix]** Synchronize WDG repair weapon ID
+- **[❓Known Issues]** Unable to use the achievement import function
+- **[❓Known Issues]** IP detection service is not online
+- **[❓Known Issues]** The fallback mechanism for unwritten metadata in some languages cannot hide the default unavailable role, and entering it will result in an unrecoverable error
+
+Optimized download links for mainland China:  
+github mirror (please check domain availability yourself): https://gh-proxy.net/github.com/hoshiizumiya/Snap.Hutao-Manjusaka/releases/download/V2.0.3.0/Snap.Hutao.Installer-V2.0.3.0.7z  
+github mirrors site monitoring: https://uptime.akams.cn/status/philanthropy
+
+## V2.0.2.0 Release
+
+- **[🎉New]** Custom launch is now available. Yes, you can now customize, obtain, and download any program you want that hasn't been implemented in Hu Tao
+- **[🎉New]** Delay startup and launch, you can quickly start other programs at the same time
+- **[✨Optimization]** Optimized and improved multi-language support in multiple areas
+- **[🔨Fix]** Fixed the issue where Christmas could not end
+- **[🔨Fix]** Improved stability in certain scenarios
+- **[🔨Fix]** Resolved issues where the program occasionally fails to start with administrator privileges and cannot be launched under low UAC settings
+- **[❓Known Issues]** Unable to use the achievement import function
+- **[❓Known Issues]** IP detection service is not online
+- **[❓Known Issues]** The fallback mechanism for unwritten metadata in some languages cannot hide the default unavailable role, and entering it will result in an unrecoverable error
+
+Optimized download links for mainland China:  
+github mirror (please check domain availability yourself): https://gh-proxy.net/github.com/hoshiizumiya/Snap.Hutao-Manjusaka/releases/download/V2.0.2.0/Snap.Hutao.Installer-V2.0.2.0.7z  
+github mirrors site monitoring: https://uptime.akams.cn/status/philanthropy
+
+## 🎁🎄V2.0.1.0 Release🎄🎁
+
+- **[🎉New]** Merry Christmas
+- **[🎉New]** Auto check-in feature launched
+- **[🎉New]** Documentation homepage for Snap Hu Tao Link
+- **[🎉New]** Project renamed to Snap Hutao Manjusaka
+- **[🎉New]** Hu Tao Cloud functionality launched
+- **[✨Optimization]** Enhanced partial multilingual support
+- **[🎉New]** New logo and icons
+- **[🎉New]** Introduced new Christmas theme, only enabled once in December, can be enabled or disabled in settings
+- **[🔨Fix]** Disabled theme switching for developers
+- **[🔨Fix]** Improved stability in certain scenarios
+- **[🔨Fix]** Fixed navigation links on some pages
+- **[🔨Fix]** Added autostart dependency missing prompt, temporarily using local build package to fix missing Runner.dll in GitHub action (V2.0.1)
+- **[❓Known Issues]** Unable to use achievement import function
+- **[❓Known Issues]** New character data not fully written
+- **[❓Known Issues]** Injection feature temporarily unavailable
+- **[❓Known Issues]** IP detection service not online
+- **[❓Known Issues]** The fallback mechanism for unwritten metadata in some languages cannot hide the default unavailable role, and entering it will result in an unrecoverable error
+
+## 1.17.1
 
 - **[✨Optimization]** Updated the user agreement prompt text for the injection feature
 - **[✨Optimization]** Restricted certain injection features from taking effect in Spiral Abyss, Imaginarium Theater, and Stygian Onslaught

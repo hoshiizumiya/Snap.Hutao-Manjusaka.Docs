@@ -4,7 +4,7 @@ category: [Feature, Tutorial]
 tag: [Development Plan, Development Calculator]
 order: 10
 comment: false
-description: The Development Plan feature in Snap Hutao assists players in creating lists of goals for character and weapon development, making it easy to track progress and required materials.
+description: The Development Plan feature in Snap Hutao Manjusaka assists players in creating lists of goals for character and weapon development, making it easy to track progress and required materials.
 ---
 
 # Development Plan
@@ -19,7 +19,7 @@ Green icons indicate items that can be farmed on the current day.
 
 ### Adding from Wiki Data
 
-1. In the left sidebar of Snap Hutao, click the "Character Data" or "Weapon Data" feature.
+1. In the left sidebar of Snap Hutao Manjusaka, click the "Character Data" or "Weapon Data" feature.
 2. Click the "Development Calculator" button in the upper right corner of the interface.
 3. In the "Add or Update to Current Development Plan" window that pops up, fill in the starting and target levels for the character or weapon.
 
@@ -55,4 +55,4 @@ If the item names and images are inconsistent or display issues such as stacking
 
 ## Delete a Development Plan
 
-In the upper-right section of the Snap Hutao interface, click the "Delete Plan" button to delete the current development plan. After deletion, the character information, inventory item information, and other data in the plan will be cleared.
+In the upper-right section of the Snap Hutao Manjusaka interface, click the "Delete Plan" button to delete the current development plan. After deletion, the character information, inventory item information, and other data in the plan will be cleared.

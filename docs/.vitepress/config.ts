@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import tailwindcss from '@tailwindcss/vite'
+import markdownItContainer from 'markdown-it-container'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { generateSidebar } from 'vitepress-sidebar'
 
@@ -13,6 +14,34 @@ export default defineConfig({
     markdown: {
         config(md: any) {
             md.use(tabsMarkdownPlugin)
+
+            // 注册自定义容器：
+            // 输出与其它容器相同的结构，但使用 .caution 类以供样式覆盖
+            // 因为 VitePress 内置只支持 tip/warning/danger/info/details
+            // 我们使用 markdown-it-container 显式注册 caution
+            md.use(markdownItContainer, 'caution', {
+                render(tokens: any[], idx: number) {
+                    const token = tokens[idx]
+                    if (token.nesting === 1) {
+                        // render an empty title element; label will be provided via CSS based on html[lang]
+                        return '<div class="caution custom-block"><p class="custom-block-title" data-i18n="caution"></p>'
+                    } else {
+                        return '</div>'
+                    }
+                },
+            })
+            // 注册 important 容器（内容名称：重要）
+            md.use(markdownItContainer, 'important', {
+                render(tokens: any[], idx: number) {
+                    const token = tokens[idx]
+                    if (token.nesting === 1) {
+                        // empty title; use CSS for localized text
+                        return '<div class="important custom-block"><p class="custom-block-title" data-i18n="important"></p>'
+                    } else {
+                        return '</div>'
+                    }
+                },
+            })
         },
         html: true,
         container: {

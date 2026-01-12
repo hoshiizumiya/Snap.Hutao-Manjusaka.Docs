@@ -257,7 +257,7 @@ export const catalogTrees = {
           "path": "en/advanced/loopback"
         },
         "uninstall": {
-          "title": "Uninstall Snap Hutao",
+          "title": "Uninstall Snap Hutao Manjusaka",
           "path": "en/advanced/uninstall"
         }
       }
@@ -297,7 +297,7 @@ export const catalogTrees = {
           "path": "en/development/join"
         },
         "platform": {
-          "title": "Snap Hutao Open Platform",
+          "title": "Snap Hutao Manjusaka Open Platform",
           "path": "en/development/platform"
         },
         "symposium1": {
@@ -347,7 +347,7 @@ export const catalogTrees = {
           "path": "en/features/hutao-API"
         },
         "hutao-passport": {
-          "title": "Snap Hutao Passport",
+          "title": "Snap Hutao Manjusaka Passport",
           "path": "en/features/hutao-passport"
         },
         "hutao-settings": {

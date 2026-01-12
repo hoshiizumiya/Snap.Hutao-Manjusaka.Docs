@@ -2,7 +2,7 @@
 
 This repository contains the documentation for the [Snap Hutao-Manjusaka project](https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka). You can view the live version at []().
 
-We welcome contributions to our documentation! If you're interested in helping with translations, please check our [Localization Guide](https:///i18n.html).
+We welcome contributions to our documentation! If you're interested in helping with translations, please check our [Localization Guide](/i18n.html).
 
 ## How to Run Locally
 
@@ -43,3 +43,7 @@ After the setup is complete, you can start the local development server:
     ```
 2.  **View the Documentation:**
     The server will start, and you can access the local documentation by opening your browser and navigating to `http://localhost:8080`. The site will automatically update as you make changes to the source files.
+
+## Good news
+
+The Snap Hutao-Manjusaka documentation is now build with vitepress from vuepress!

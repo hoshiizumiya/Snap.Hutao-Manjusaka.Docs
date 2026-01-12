@@ -1,7 +1,7 @@
 ---
 layout: home
 hero:
-  name: Snap Hutao
+  name: Snap Hutao Manjusaka
   text: 胡桃工具箱-Manjusaka
   tagline: 重定向中...  Redirecting...
 ---
