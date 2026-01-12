@@ -221,6 +221,10 @@ export const catalogTrees = {
           "path": "zh/statements/update-log"
         }
       }
+    },
+    "support-us": {
+      "title": "Support Us",
+      "path": "zh/support-us"
     }
   },
   "en": {
@@ -1385,6 +1389,10 @@ export const catalogTrees = {
           "path": "tw/statements/update-log"
         }
       }
+    },
+    "support-us": {
+      "title": "Support Us",
+      "path": "tw/support-us"
     }
   }
 };

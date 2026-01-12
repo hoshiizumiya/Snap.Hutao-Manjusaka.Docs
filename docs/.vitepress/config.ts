@@ -67,23 +67,6 @@ export default defineConfig({
         ],
         [
             'script',
-            {
-                src: 'https://hello.snapgenshin.com/api/script.js',
-                async: 'true',
-                'data-site-id': '1',
-                'data-session-replay': 'true',
-                'data-skip-patterns': '["**/latest"]'
-            }
-        ],
-        [
-            'script',
-            {
-                async: '',
-                src: 'https://www.googletagmanager.com/gtag/js?id=G-F3LFJCE3RM'
-            }
-        ],
-        [
-            'script',
             {},
             `
       window.dataLayer = window.dataLayer || [];
