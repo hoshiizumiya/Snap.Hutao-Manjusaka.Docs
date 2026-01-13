@@ -6,6 +6,7 @@ import { generateSidebar } from 'vitepress-sidebar'
 
 export default defineConfig({
     base: '/Snap.Hutao-Manjusaka.Docs/',
+    title: 'Snap Hutao Manjusaka',
     outDir: './dist',
     publicDir: 'public',
     ignoreDeadLinks: true,
@@ -125,6 +126,25 @@ export default defineConfig({
                     { text: 'Home', link: '/en/' },
                     { text: 'Document', link: '/en/menu' },
                     { text: 'Download', link: '/en/quick-start' },
+                    {
+                        text: 'Help & Support',
+                        items: [
+                            { text: 'Update Log', link: '/en/statements/update-log' },
+                            {
+                                text: 'Service Availability',
+                                items: [
+                                    { text: 'Uptime Kuma', link: 'http://serverjp.wdg.cloudns.ch:3001/status/hts' },
+                                ],
+                            },
+                            {
+                                text: 'Issues & Feedback',
+                                items: [
+                                    { text: 'FAQ', link: '/en/advanced/FAQ' },
+                                    { text: 'Report Issue', link: '/en/statements/bug-report' },
+                                ],
+                            },
+                        ],
+                    },
                 ],
             }
         },
@@ -172,6 +192,30 @@ export default defineConfig({
                     pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
                     text: 'Редактировать эту страницу на GitHub'
                 },
+                nav: [
+                    { text: 'Главная', link: '/ru/' },
+                    { text: 'Документация', link: '/ru/menu' },
+                    { text: 'Скачать', link: '/ru/quick-start' },
+                    {
+                        text: 'Помощь и поддержка',
+                        items: [
+                            { text: 'Журнал обновлений', link: '/ru/statements/update-log' },
+                            {
+                                text: 'Доступность сервиса',
+                                items: [
+                                    { text: 'Uptime Kuma', link: 'http://serverjp.wdg.cloudns.ch:3001/status/hts' },
+                                ],
+                            },
+                            {
+                                text: 'Проблемы и обратная связь',
+                                items: [
+                                    { text: 'Часто задаваемые вопросы', link: '/ru/advanced/FAQ' },
+                                    { text: 'Сообщить о проблеме', link: '/ru/statements/bug-report' },
+                                ],
+                            },
+                        ],
+                    },
+                ],
             }
         },
         id: {
@@ -183,6 +227,30 @@ export default defineConfig({
                     pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
                     text: 'Edit halaman ini di GitHub'
                 },
+                nav: [
+                    { text: 'Beranda', link: '/id/' },
+                    { text: 'Dokumentasi', link: '/id/menu' },
+                    { text: 'Unduh', link: '/id/quick-start' },
+                    {
+                        text: 'Bantuan dan Dukungan',
+                        items: [
+                            { text: 'Log Pembaruan', link: '/id/statements/update-log' },
+                            {
+                                text: 'Ketersediaan Layanan',
+                                items: [
+                                    { text: 'Uptime Kuma', link: 'http://serverjp.wdg.cloudns.ch:3001/status/hts' },
+                                ],
+                            },
+                            {
+                                text: 'Masalah dan Umpan Balik',
+                                items: [
+                                    { text: 'FAQ', link: '/id/advanced/FAQ' },
+                                    { text: 'Laporkan Masalah', link: '/id/statements/bug-report' },
+                                ],
+                            },
+                        ],
+                    },
+                ],
             }
         },
         jp: {
@@ -194,6 +262,30 @@ export default defineConfig({
                     pattern: 'https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka.Docs/edit/dev/docs/:path',
                     text: 'GitHub でこのページを編集'
                 },
+                nav: [
+                    { text: 'ホーム', link: '/jp/' },
+                    { text: 'ドキュメント', link: '/jp/menu' },
+                    { text: 'ダウンロード', link: '/jp/quick-start' },
+                    {
+                        text: 'ヘルプとサポート',
+                        items: [
+                            { text: '更新履歴', link: '/jp/statements/update-log' },
+                            {
+                                text: 'サービスの可用性',
+                                items: [
+                                    { text: 'Uptime Kuma', link: 'http://serverjp.wdg.cloudns.ch:3001/status/hts' },
+                                ],
+                            },
+                            {
+                                text: '問題とフィードバック',
+                                items: [
+                                    { text: 'FAQ', link: '/jp/advanced/FAQ' },
+                                    { text: '問題を報告', link: '/jp/statements/bug-report' },
+                                ],
+                            },
+                        ],
+                    },
+                ],
             }
         },
         tw: {
