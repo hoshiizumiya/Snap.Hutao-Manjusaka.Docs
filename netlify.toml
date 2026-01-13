@@ -1,9 +1,4 @@
 [[redirects]]
-
-# Language-based redirects for root paths
-/*  /zh/:splat  302  Language=zh
-/*  /en/:splat  302  Language=en
-/*  /ru/:splat  302  Language=ru
-/*  /id/:splat  302  Language=id
-/*  /jp/:splat  302  Language=jp
-/*  /tw/:splat  302  Language=zh-tw
+from = "/tasks/:id"
+to = "https://git.snapgenshin.com/DGP-Studio/Feedback/issues/:id"
+status = 301

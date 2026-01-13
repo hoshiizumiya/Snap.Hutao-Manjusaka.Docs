@@ -31,39 +31,55 @@ const initZoom = () => {
   mediumZoom('.main img', { background: 'var(--vp-c-bg)' });
 }
 
-// 自动重定向逻辑：处理不带语言前缀的旧链接
+// 自动重定向逻辑：处理不带语言前缀的旧链接（含 .html）
 const handleRedirect = () => {
   if (typeof window === 'undefined') return
+
   const path = window.location.pathname
   const base = '/Snap.Hutao-Manjusaka.Docs/'
-  const supportedLangs = ['zh', 'en', 'ru', 'id', 'jp']
-  
-  // 1. 获取相对于 base 的路径
+  const supportedLangs = ['zh', 'en', 'ru', 'id', 'jp', 'tw']
+
+  const detectTargetLang = () => {
+    const raw = (navigator.language || '').toLowerCase()
+    if (raw.startsWith('ja')) return 'jp'
+    if (raw.startsWith('zh')) {
+      // zh-hk/zh-tw/zh-mo -> tw
+      if (raw.includes('-tw') || raw.includes('-hk') || raw.includes('-mo')) return 'tw'
+      return 'zh'
+    }
+    const primary = raw.split('-')[0]
+    return supportedLangs.includes(primary) ? primary : 'zh'
+  }
+
+  // 1) 取得相对 base 的路径
   let relativePath = ''
   if (path.startsWith(base)) {
     relativePath = path.substring(base.length)
-  } else if (path === base.slice(0, -1) || path === base.slice(0, -1) + '/index.html') {
-    relativePath = ''
-  } else if (path === '/') {
+  } else if (path === base || path === base.slice(0, -1) || path === '/') {
     relativePath = ''
   } else {
-    // 处理可能的异常路径
     relativePath = path.replace(/^\//, '')
   }
 
-  // 如果路径为空，说明是首页，通常已由 index.md 的脚本处理，这里直接返回
-  if (!relativePath || relativePath === '/' || relativePath === 'index.html') return
+  relativePath = relativePath.replace(/^\//, '')
 
-  // 2. 检查是否已经包含了支持的语言前缀
-  const startsWithLang = supportedLangs.some(lang => 
-    relativePath === lang || relativePath === lang + '/' || relativePath.startsWith(lang + '/')
-  )
-  
-  // 3. 如果不包含语言前缀，且不是资源文件（不含点），则重定向到 zh 分支
-  if (!startsWithLang && !relativePath.includes('.') && relativePath.length > 0) {
-    const targetPath = (base + 'zh/' + relativePath).replace(/\/+/g, '/')
-    window.location.replace(targetPath)
-  }
+  // 首页：交给 docs/index.md 的逻辑
+  if (!relativePath || relativePath === 'index' || relativePath === 'index.html') return
+
+  // 2) 已经有语言前缀就不处理
+  const firstSegment = relativePath.split('/')[0]
+  if (supportedLangs.includes(firstSegment)) return
+
+  // 3) 过滤静态资源（但允许 .html 的旧链接）
+  const isHtml = relativePath.endsWith('.html')
+  if (relativePath.includes('.') && !isHtml) return
+
+  // 4) 兼容 cleanUrls：把 *.html 规范化为无扩展名
+  const normalized = isHtml ? relativePath.slice(0, -'.html'.length) : relativePath
+
+  const targetLang = detectTargetLang()
+  const targetPath = (base + targetLang + '/' + normalized).replace(/\/{2,}/g, '/')
+  window.location.replace(targetPath)
 }
 
 onMounted(() => {

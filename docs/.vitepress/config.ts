@@ -54,43 +54,6 @@ export default defineConfig({
         }
     },
     head: [
-        [
-            'script',
-            {},
-            `
-        (function(){
-            try {
-                var path = window.location.pathname || '/';
-                var base = '/Snap.Hutao-Manjusaka.Docs/';
-                if (path.indexOf(base) === 0) {
-                    path = path.substring(base.length);
-                }
-                // normalize leading slash
-                if (path.indexOf('/') === 0) path = path.substring(1);
-                var langCodes = ['zh','en','ru','id','jp','tw'];
-                var parts = path.split('/');
-                // if already language-prefixed, do nothing
-                if (parts[0] && langCodes.indexOf(parts[0]) !== -1) return;
-
-                // skip if path is empty (root) or already index
-                if (!path || path === '' || path === 'index' || path === 'index.html') return;
-
-                var lang = 'zh';
-                try { lang = (navigator.language || navigator.userLanguage || 'zh').split('-')[0]; } catch(e){}
-                var supported = ['zh','en','ru','id','jp','tw'];
-                var target = supported.indexOf(lang) !== -1 ? lang : 'zh';
-
-                var newPath = base + target + '/' + path;
-                // Do not redirect if already at target
-                if (window.location.pathname.indexOf('/' + target + '/') === -1) {
-                    window.location.replace(newPath);
-                }
-            } catch (e) {
-                // fail silently
-            }
-        })();
-                        `,
-        ],
         ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
         [
             'link',
@@ -126,8 +89,8 @@ export default defineConfig({
         ],
         [
             'script',
-            [`
-!function() {
+            {},
+            `!function() {
                 var target = document.querySelector('[aria-label="ducalis-changelog-widget"]');
                 var callback = () => {
                     target = document.querySelector('[aria-label="ducalis-changelog-widget"]');
@@ -153,9 +116,9 @@ export default defineConfig({
                     }
                 }
         }();`,
-            ]
         ],
-        locales: {
+    ],
+    locales: {
             root: {
                 label: ' ',
                 lang: 'zh-CN',
