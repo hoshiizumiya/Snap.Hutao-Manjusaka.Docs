@@ -486,6 +486,45 @@ export default defineConfig({
                             next()
                         }
                     })
+                },
+                transformIndexHtml(html: string, ctx: any) {
+                    // Add redirect script to every page
+                    const script = `
+<script>
+(function() {
+  var path = window.location.pathname;
+  var base = '/Snap.Hutao-Manjusaka.Docs/';
+  
+  // Remove base from path
+  var cleanPath = path;
+  if (cleanPath.startsWith(base)) {
+    cleanPath = cleanPath.substring(base.length);
+  }
+  
+  // If path is empty or index, already handled
+  if (!cleanPath || cleanPath === '/' || cleanPath === 'index.html') {
+    return;
+  }
+  
+  // If path already starts with a language code, do nothing
+  var langCodes = ['zh', 'en', 'ru', 'id', 'jp', 'tw'];
+  var pathParts = cleanPath.split('/');
+  if (langCodes.includes(pathParts[0])) {
+    return;
+  }
+  
+  // Detect browser language
+  var lang = navigator.language.split('-')[0];
+  var supportedLangs = ['zh', 'en', 'ru', 'id', 'jp', 'tw'];
+  var targetLang = supportedLangs.includes(lang) ? lang : 'zh';
+  
+  // Redirect to the language-specific path
+  var newPath = base + targetLang + '/' + cleanPath;
+  window.location.href = newPath;
+})();
+</script>
+                    `;
+                    return html.replace('</head>', script + '</head>');
                 }
             }
         ],
