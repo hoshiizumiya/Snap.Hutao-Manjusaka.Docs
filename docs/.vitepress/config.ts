@@ -54,6 +54,43 @@ export default defineConfig({
         }
     },
     head: [
+        [
+            'script',
+            {},
+            `
+        (function(){
+            try {
+                var path = window.location.pathname || '/';
+                var base = '/Snap.Hutao-Manjusaka.Docs/';
+                if (path.indexOf(base) === 0) {
+                    path = path.substring(base.length);
+                }
+                // normalize leading slash
+                if (path.indexOf('/') === 0) path = path.substring(1);
+                var langCodes = ['zh','en','ru','id','jp','tw'];
+                var parts = path.split('/');
+                // if already language-prefixed, do nothing
+                if (parts[0] && langCodes.indexOf(parts[0]) !== -1) return;
+
+                // skip if path is empty (root) or already index
+                if (!path || path === '' || path === 'index' || path === 'index.html') return;
+
+                var lang = 'zh';
+                try { lang = (navigator.language || navigator.userLanguage || 'zh').split('-')[0]; } catch(e){}
+                var supported = ['zh','en','ru','id','jp','tw'];
+                var target = supported.indexOf(lang) !== -1 ? lang : 'zh';
+
+                var newPath = base + target + '/' + path;
+                // Do not redirect if already at target
+                if (window.location.pathname.indexOf('/' + target + '/') === -1) {
+                    window.location.replace(newPath);
+                }
+            } catch (e) {
+                // fail silently
+            }
+        })();
+                        `,
+        ],
         ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
         [
             'link',
@@ -498,43 +535,47 @@ export default defineConfig({
                         })
                     },
                     transformIndexHtml(html: string, ctx: any) {
-                        // Add redirect script to every page
+                        // Add redirect script to every page — insert immediately after <head> so it runs before other head scripts
                         const script = `
 <script>
 (function() {
-  var path = window.location.pathname;
-  var base = '/Snap.Hutao-Manjusaka.Docs/';
-  
-  // Remove base from path
-  var cleanPath = path;
-  if (cleanPath.startsWith(base)) {
-    cleanPath = cleanPath.substring(base.length);
-  }
-  
-  // If path is empty or index, already handled
-  if (!cleanPath || cleanPath === '/' || cleanPath === 'index.html') {
-    return;
-  }
-  
-  // If path already starts with a language code, do nothing
-  var langCodes = ['zh', 'en', 'ru', 'id', 'jp', 'tw'];
-  var pathParts = cleanPath.split('/');
-  if (langCodes.includes(pathParts[0])) {
-    return;
-  }
-  
-  // Detect browser language
-  var lang = navigator.language.split('-')[0];
-  var supportedLangs = ['zh', 'en', 'ru', 'id', 'jp', 'tw'];
-  var targetLang = supportedLangs.includes(lang) ? lang : 'zh';
-  
-  // Redirect to the language-specific path
-  var newPath = base + targetLang + '/' + cleanPath;
-  window.location.href = newPath;
+    try {
+        var path = window.location.pathname;
+        var base = '/Snap.Hutao-Manjusaka.Docs/';
+
+        // Remove base from path
+        var cleanPath = path;
+        if (cleanPath.indexOf(base) === 0) {
+            cleanPath = cleanPath.substring(base.length);
+        }
+
+        // If path is empty or index, do nothing
+        if (!cleanPath || cleanPath === '/' || cleanPath === 'index.html') {
+            return;
+        }
+
+        // If path already starts with a language code, do nothing
+        var langCodes = ['zh', 'en', 'ru', 'id', 'jp', 'tw'];
+        var pathParts = cleanPath.split('/');
+        if (langCodes.indexOf(pathParts[0]) !== -1) {
+            return;
+        }
+
+        // Detect browser language
+        var lang = (navigator.language || navigator.userLanguage || 'zh').split('-')[0];
+        var supportedLangs = ['zh', 'en', 'ru', 'id', 'jp', 'tw'];
+        var targetLang = supportedLangs.indexOf(lang) !== -1 ? lang : 'zh';
+
+        // Redirect to the language-specific path (preserve search/hash)
+        var newPath = base + targetLang + '/' + cleanPath + window.location.search + window.location.hash;
+        window.location.replace(newPath);
+    } catch (e) {
+        // swallow errors to avoid breaking the page
+    }
 })();
 </script>
-                    `;
-                        return html.replace('</head>', script + '</head>');
+                                                `;
+                        return html.replace('<head>', '<head>' + script);
                     }
                 }
             ],
