@@ -29,7 +29,7 @@ pageInfo: false
   - ✨ Optimized the shortcut creation logic, removed version information attached to shortcuts, and added corresponding icons for options
   - ✨ Changed the left-click logic for the taskbar icon; left-click will always open the main window
   - ✨ Added a "Close window to hide" button for the taskbar window
-  - ✨ Synchronized with v1.18.0 to add third-party tool functionality and optimize the game launch interface speed
+  - ✨ Synchronized with v1.18.1 to add third-party tool functionality and optimize the game launch interface speed
   - ✨ Added open-source information
   - ✨ Some announcements can now be dismissed/closed.
 - Fixes:
@@ -40,6 +40,6 @@ pageInfo: false
   - 🛠️ Fixed decompression errors for LZMA/LZMA2 formats
 - Known Issues:
   - ❔ IP detection service is not yet live
-  - ❔ Web help links cannot correctly redirect to the corresponding language pages
+  - ❔ Web help links may cannot correctly redirect to the corresponding language pages
   - ❔ Misaligned styling on the injection page
   - ❔ Some image resources have not been updated yet

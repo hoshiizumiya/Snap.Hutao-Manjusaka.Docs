@@ -433,7 +433,7 @@ export const catalogTrees = {
           "path": "en/statements"
         },
         "latest": {
-          "title": "🎉 Successfully Updated to Version 1.17.1",
+          "title": "🎉 Successfully Updated to Version 2.1.0",
           "path": "en/statements/latest"
         },
         "privacy-notice": {
