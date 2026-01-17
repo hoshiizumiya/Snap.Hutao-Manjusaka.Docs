@@ -1,4 +1,4 @@
----
+﻿---
 headerDepth: 2
 category: [功能, 教程]
 tag: [成就]
@@ -30,7 +30,9 @@ description: 胡桃工具箱提供原神成就管理功能，支持浏览与管�
 ## 成就导入 <Badge text="UIAF" type="info" />
 
 胡桃工具箱支持通过 [UIAF 统一可交换成就标准](https://uigf.org/zh/standards/uiaf.html) 导入成就数据。
-
+::: waring
+Embedded Yae 功能暂不可用，请使用第三方成就导出工具生成 UIAF 格式的成就数据进行导入。
+:::
 - 用户可以通过 URL 协议或剪贴板，从**第三方成就导出工具**中导入数据。
 - 点击成就页面右上角隐藏菜单中的“导入”按钮，选择“从 UIAF 文件导入”，即可加载符合 UIAF 数据格式的成就数据。
 

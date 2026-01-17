@@ -1,10 +1,9 @@
----
+﻿---
 category: [開源, 開發]
 tag: [開源, 胡桃數據庫, 深淵數據庫, Enka, UIGF, 數據開放]
 icon: iconfont icon-vscode
 order: 2
 description: 胡桃工具箱中包含了來自社區的創意，作為我們的回饋，我們也將一些服務公開於社區。如果它們對你的開發有幫助，請放心使用，我們會盡力維護這些分支項目。
-banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/development/platform.html
 ---
 
 # 胡桃開放平臺

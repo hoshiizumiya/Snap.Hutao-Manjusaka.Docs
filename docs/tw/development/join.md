@@ -9,7 +9,6 @@ tag:
 icon: iconfont icon-group
 order: 1
 description: 如果你有本頁所述技術之一且有興趣加入 Snap Hutao Manjusaka 開發團隊以完善項目，並接觸到更多的原神開源項目，歡迎加入我們！
-banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/development/join.html
 ---
 
 # 加入我們

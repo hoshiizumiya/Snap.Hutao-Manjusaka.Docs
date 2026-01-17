@@ -4,26 +4,25 @@ tag: ["開發", "GitHub"]
 icon: iconfont icon-code
 order: 3
 description: 胡桃工具箱使用 C# 和 .NET 框架開發桌面客戶端和服務端。我們廣泛地接受來自開源社區的反饋，如果你願意貢獻你的代碼，請閱讀本頁的指導文檔。
-banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/development/contribute.html
 ---
 
 # 貢獻你的代碼
 
 胡桃工具箱使用 `C#` 和 `.NET 框架` 開發桌面客戶端和服務端。我們廣泛接受來自開源社區的反饋。如果你有興趣貢獻代碼，請閱讀本頁的指導文檔。
 
-你可以在 GitHub 上查看所有當前[未解決的問題](https://github.com/DGP-Studio/Snap.Hutao/issues?q=is%3Aissue%20is%3Aopen%20-label%3A%E5%B7%B2%E5%AE%8C%E6%88%90)。
+你可以在 GitHub 上查看所有當前[未解決的問題](https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka/issues)。
 
 ## <HopeIcon icon="iconfont icon-visual-studio" size="1.5rem" color="rgb(193,142,241)" /> 設置 Snap.Hutao 項目
-
-1. 下載並安裝 [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+更多貢獻詳情可參考 github 上的 [CONTRIBUTING.md](https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka?tab=contributing-ov-file#contribute-your-code)  
+此指南並非強制要求，針對不同情況，可以根據個人習慣調整。
+1. 下載並安裝 [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/)
    - 需要安裝以下組件：
      - `.NET desktop development`（.NET 桌面開發）
      - `Desktop development with C++`（使用 C++ 的桌面開發）
      - `Windows application development`（Windows 應用程序開發）
-2. 從 Visual Studio 插件商店安裝 Microsoft 提供的 `Single-project MSIX Packaging Tools for VS 2022` 插件。
-3. 使用 Git 克隆項目倉庫：`https://github.com/DGP-Studio/Snap.Hutao.git`。
-4. 將分支切換到 `develop`。
-5. 使用 Visual Studio 打開項目解決方案（Solution），即可開始開發。
+2. 使用 Git 克隆項目倉庫：`git@github.com:hoshiizumiya/Snap.Hutao-Manjusaka.git`。
+3. 將分支切換到 `develop`。
+4. 使用 Visual Studio 打開項目解決方案（Solution）對應的 .slnx 文件，即可開始開發。
 
 ## <HopeIcon icon="iconfont icon-debug" size="1.5rem" color="rgb(73,156,84)" /> 開啟 Debug
 
@@ -46,4 +45,4 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/zh/developm
 - 每次 `push` 後，GitHub Actions 腳本會自動運行以構建最新解決方案：
   - 對於 `main`、`develop` 和 `feat` 分支，腳本將自動上傳構建的 `Snap Hutao Alpha` 壓縮包以供測試。
   - 其他分支僅驗證代碼可構建性，不提供上傳功能。
-- 可在 [Alpha 流水線](https://github.com/DGP-Studio/Snap.Hutao/actions/workflows/alpha.yml)中查看所有編譯記錄。
+- 可在 [Alpha 流水線](https://github.com/hoshiizumiya/Snap.Hutao-Manjusaka/actions/workflows/alpha.yml)中查看所有編譯記錄。
