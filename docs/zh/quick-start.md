@@ -56,7 +56,34 @@ background="rgba(155, 233, 168, 0.15)"
 
 :::
 
----
+## 二次开发衍生版本
+
+来自社区力量！
+:::tabs 
+
+== Snap Hutao Remastered
+
+<div class="vp-card-container">
+<VPCard
+title="Snap Hutao Remastered 官网"
+desc="重做了高级功能的项目"
+logo="http://snaphutaorp.org/logo.png"
+link="http://snaphutaorp.org/"
+background="rgba(155, 233, 168, 0.15)"
+/>
+</div>
+
+== Snap Hutao 原版重置
+<div class="vp-card-container">
+<VPCard
+title="Snap Hutao Remastered 官网"
+desc="WDG 呈现"
+logo="/images/202312/github-mark.svg"
+link="https://github.com/wangdage12/Snap.Hutao"
+background="rgba(155, 233, 168, 0.15)"
+/>
+</div>
+:::
 
 如果你有兴趣通过你的力量让 Snap Hutao Manjusaka 项目变得更好，欢迎[加入我们](development/join.md)！
 
