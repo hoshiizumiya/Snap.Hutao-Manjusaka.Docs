@@ -67,16 +67,16 @@ background="rgba(155, 233, 168, 0.15)"
 <VPCard
 title="Snap Hutao Remastered 官網"
 desc="重做了高級功能的項目"
-logo="http://snaphutaorp.org/logo.png"
-link="http://snaphutaorp.org/"
+logo="https://snap.hutaorp.org/logo.png"
+link="https://snap.hutaorp.org/"
 background="rgba(155, 233, 168, 0.15)"
 />
 </div>
 
-== Snap Hutao 原版重置
+== Snap Hutao 原版修復
 <div class="vp-card-container">
 <VPCard
-title="Snap Hutao Remastered 官網"
+title="Snap Hutao 原版"
 desc="WDG 呈現"
 logo="/images/202312/github-mark.svg"
 link="https://github.com/wangdage12/Snap.Hutao"
