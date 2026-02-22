@@ -15,9 +15,9 @@ As an open-source software, community engagement is a vital part of the Snap Hut
 <div class="vp-card-container">
   <VPCard
     title="Discord"
-    desc="u9cRFw6f"
+    desc="efnyMunbs"
     logo="/images/202312/discord.svg"
-    link="https://discord.gg/u9cRFw6f"
+    link="https://discord.gg/efnyMunbs"
     background="rgba(88, 101, 242, 0.15)"
   />
 </div>
